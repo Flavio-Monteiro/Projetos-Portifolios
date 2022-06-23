@@ -107,17 +107,19 @@ body{
     opacity: 80%;
     transition-duration: .5s;
     color: antiquewhite;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .history02:hover{
     opacity: 80%;
     transition-duration: .5s;
     color: antiquewhite;
+    font-size: 1.3em;
 }
 .history03:hover{
     opacity: 80%;
     transition-duration: .5s;
     color: antiquewhite;
+    font-size: 1.3em;
 }
 .history04:hover{
     opacity: 80%;
@@ -170,7 +172,7 @@ footer{
     margin: auto;
     min-height: 80px;
     color: antiquewhite;
-
-
-    
+}
+footer p{
+    text-align: center;
 }
