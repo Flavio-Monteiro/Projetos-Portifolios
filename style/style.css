@@ -108,6 +108,21 @@ body{
     transition-duration: .5s;
     color: antiquewhite;
 }
+.history02:hover{
+    opacity: 80%;
+    transition-duration: .5s;
+    color: antiquewhite;
+}
+.history03:hover{
+    opacity: 80%;
+    transition-duration: .5s;
+    color: antiquewhite;
+}
+.history04:hover{
+    opacity: 80%;
+    transition-duration: .5s;
+    color: antiquewhite;
+}
  .history02{
     background-image: url('../images/backgrounds/09.jpg');
     background-position: center;
