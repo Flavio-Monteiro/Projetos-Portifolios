@@ -107,6 +107,7 @@ body{
     opacity: 80%;
     transition-duration: .5s;
     color: antiquewhite;
+    font-size: 1.5em;
 }
 .history02:hover{
     opacity: 80%;
