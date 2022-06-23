@@ -142,26 +142,12 @@ body{
     background-size: contain;
     background-color: rgb(42, 42, 43);
  }
-/*.content01{
-    height: 500px;
-    width: 300px;
-    background-color: blue;
-    padding: 10px;
-}
-.content02{
-    height: 500px;
-    width: 300px;
-    background-color: rgb(28, 173, 47);
-    padding: 10px;
-    margin: 10px;
-}*/
 #aside{
     background-color: rgba(155, 78, 78, 0.706);
     max-width: 1200px;
     min-width: 320px;
     height: 20%px;
     margin: auto;
-    
 }
 .content-aside h2{
    color: #fff;
