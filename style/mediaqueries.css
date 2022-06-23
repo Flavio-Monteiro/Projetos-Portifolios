@@ -1,0 +1,13 @@
+@media (max-width: 900px){
+    #cabecalho{
+        font-size: .7em;
+    }
+    #nav-bar{
+        font-size: .8em;
+    }
+    .history01, .history02, .history03, .history04{
+        background-color: rgba(219, 65, 65, 0.88);
+        min-height: 200px;
+        min-width: 200px;
+    }
+}
