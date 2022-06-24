@@ -113,6 +113,7 @@ body{
     flex-wrap: wrap;
     margin: auto;
     box-shadow: 12px 12px 12px rgba(26, 26, 26, 0.839);
+    border: solid  rgba(213, 211, 211, 0.08);
  }
  .history01, .history02, .history03, .history04{
     text-transform: uppercase;
@@ -189,6 +190,7 @@ body{
     margin: 5px;
  }
  .btn_social-medias{
+    border-radius: 14px;
     background-color: #051933;
     width: 1170px;
     display: flex;
