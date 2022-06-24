@@ -83,7 +83,10 @@ body{
     min-width: 320px;
     margin: auto;
     min-height: 50px;
-    background-color: rgb(16, 16, 16);
+    background-image: url('../images/backgrounds/007.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #nav-bar a{
     text-decoration: none;
