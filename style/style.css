@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1.900 & display=swap');
-
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 *{
     padding: 0PX;
@@ -76,13 +77,13 @@ body{
     min-width: 320px;
     margin: auto;
     min-height: 50px;
-    background-color: aqua;
+    background-color: rgb(16, 16, 16);
 }
 #nav-bar a{
     text-decoration: none;
     color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1.3em;
     margin: 10px;
 }
@@ -95,11 +96,11 @@ body{
     opacity: 80%;
     max-width: 1200px;
     min-width: 320px;
+    min-height: 100vh;
     display: flex;
     justify-content:  center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 100vh;
     margin: auto;
     box-shadow: 12px 12px 12px rgba(26, 26, 26, 0.839);
  }
@@ -172,10 +173,20 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #0d0d0ddc;
+    min-height: 90px;
 }
 
  #social-media img{
-    margin: 10px;
+    margin: 5px;
+
+ }
+ .btn_social-medias{
+    background-color: #051933;
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
  }
  .btn_facebook:hover, .btn_instagram:hover, .btn_youtube:hover, .btn_linkedin:hover, .btn_github:hover{
     opacity: 60%;
@@ -204,10 +215,11 @@ body{
     text-align: justify;
     color: white;
 }
-footer{
+.informs-rodape{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: rgba(36, 34, 34, 0.706);
     max-width: 1200px;
     min-width: 320px;
@@ -215,7 +227,30 @@ footer{
     min-height: 80px;
     color: antiquewhite;
 }
-footer p{
-    text-align: center;
-   
+.infor-rodape{
+    border: dashed white;
+    margin: 10px;    
+}
+.infor-rodape li{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.logo-flavio{
+    width: 100px;
+    height: 100px;
+    background-color: #23232378;
+    border-radius: 20%;
+}
+.footer{
+    max-width: 1200px;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.814);
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
