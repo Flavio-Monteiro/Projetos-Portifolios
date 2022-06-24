@@ -195,7 +195,7 @@ body{
     transition-duration: .4s;
     cursor: pointer;
  }
-#aside{
+#article-history{
     background-image: url('../images/backgrounds/007.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -205,13 +205,13 @@ body{
     height: 20%px;
     margin: auto;
 }
-.content-aside h2{
+.content-article h2{
    color: #fff;
    font-family: 'Roboto', sans-serif;
    text-align: center;
    padding: 10px;
 }
-.content-aside p{
+.content-article p{
     padding: 10px;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
@@ -251,9 +251,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 23px;
+    height: 30px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.814);
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
     color: white;
 }
