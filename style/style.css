@@ -11,7 +11,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-image: url('../images/backgrounds/02.jpg');
+    background-image: url('../images/backgrounds/001.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ body{
     margin: 10px;
 }
 .main{
-    background-image: url('../images/backgrounds/06.jpg');
+    background-image: url('../images/backgrounds/00.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,19 +127,19 @@ body{
     color: antiquewhite;
 }
  .history02{
-    background-image: url('../images/backgrounds/09.jpg');
+    background-image: url('../images/backgrounds/009.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
  }
  .history03{
-    background-image: url('../images/backgrounds/14.jpg');
+    background-image: url('../images/backgrounds/014.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
  }
  .history04{
-    background-image: url('../images/backgrounds/11.jpg');
+    background-image: url('../images/backgrounds/011.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
