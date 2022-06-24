@@ -67,11 +67,13 @@ body{
     margin: auto;
     min-height: 100px;
     font-family: var(--font--storm);
-    color: antiquewhite;
 }
 #cabecalho h1{
     font-size: 3em;
     text-align: center;
+    color: rgb(241, 241, 241);
+    text-decoration: underline;
+
 }
 #nav-bar{
     display: flex;
