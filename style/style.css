@@ -248,10 +248,13 @@ body{
     font-size: .9em;
 }
 .logo-flavio{
-    width: 100px;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
     background-color: #23232378;
-    border-radius: 20%;
+    border-radius: 50%;
     margin-top: 10px;
     margin-left: 15px;
 }
