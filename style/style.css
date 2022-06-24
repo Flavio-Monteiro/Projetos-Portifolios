@@ -231,6 +231,9 @@ body{
     min-height: 80px;
     color: antiquewhite;
 }
+.infor-rodape h3{
+    font-size: 1.2em;
+}
 .infor-rodape{
     margin: 20px;    
 }
@@ -238,6 +241,7 @@ body{
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
+    font-size: .9em;
 }
 .logo-flavio{
     width: 100px;
