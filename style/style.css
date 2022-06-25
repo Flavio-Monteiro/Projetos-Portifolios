@@ -240,6 +240,10 @@ body{
     min-height: 80px;
     color: antiquewhite;
 }
+.infor-rodape{
+   padding: 0px;
+    margin: 0px;
+}
 .infor-rodape h3{
     font-size: 1.2em;
 }
