@@ -113,8 +113,14 @@ body{
     flex-wrap: wrap;
     margin: auto;   
 }
-.content-section{
+.content-section h1{
     color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+}
+.content-section p{
+    color: wheat;
     text-align: justify;
     padding: 20px;
 }
