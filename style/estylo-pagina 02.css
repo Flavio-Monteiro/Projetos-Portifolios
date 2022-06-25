@@ -97,6 +97,34 @@ body{
     font-size: 1.3em;
     margin: 10px;
 }
+#social-media{
+    max-width: 80%;
+    min-width: 320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0ddc;
+    min-height: 90%;
+}
+ #social-media img{
+    margin: 5px;
+    
+ }
+ .btn_social-medias{
+    border-radius: 5px;
+    background-color: #051933;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+ }
+ .btn_facebook:hover, .btn_instagram:hover, .btn_youtube:hover, .btn_linkedin:hover, .btn_github:hover{
+    opacity: 60%;
+    transition-duration: .4s;
+    cursor: pointer;
+ }
 .main{
     background-image: url('../images/backgrounds/007.jpg');
     background-position: center;
