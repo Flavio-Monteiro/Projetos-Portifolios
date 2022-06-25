@@ -7,9 +7,9 @@
     }
     .img-history01, .img-history02, .img-history03, .img-history04{
         min-height: 200px;
-        max-height: 200px;
+       
         min-width: 200px;
-        max-width: 200px;
+       
     }
 }
 @media (max-width: 1200px){
@@ -21,9 +21,9 @@
     }
     .img-history01, .img-history02, .img-history03, .img-history04{
         min-height:150px;
-        max-height:150px;
+       
         min-width: 150px;
-        max-width: 150px;
+        
     }
    
    
