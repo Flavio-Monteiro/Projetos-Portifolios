@@ -62,25 +62,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(36, 34, 34, 0.706);
-    max-width: 1200px;
+    background-color: var(--cor-02);
+    max-width: 1366px;
     min-width: 320px;
     margin: auto;
     min-height: 100px;
-    font-family: var(--font--storm);
+   
 }
 #cabecalho h1{
     font-size: 3em;
     text-align: center;
     color: rgb(241, 241, 241);
-    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px rgba(64, 64, 64, 0.882);
+    font-family: 'Roboto', sans-serif;
 
 }
 #nav-bar{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1366px;
     min-width: 320px;
     margin: auto;
     min-height: 50px;
@@ -98,13 +100,13 @@ body{
     margin: 10px;
 }
 .main{
-    background-image: url('../images/backgrounds/00.jpg');
+    background-image: url('../images/backgrounds/007.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    opacity: 80%;
-    max-width: 1200px;
+    opacity: 90%;
+    max-width: 1366px;
     min-width: 320px;
     min-height: 100vh;
     display: flex;
@@ -129,25 +131,25 @@ body{
     box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.904);
  }
  .history01{
-    background-image: url('../images/backgrounds/13.jpg');
+    background-image: url('../images/backgrounds/014.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto; 
  }
 .history01:hover{
-    opacity: 80%;
+    opacity: 1366px;
     transition-duration: .5s;
     color: antiquewhite;
     font-size: 1.3em;
 }
 .history02:hover{
-    opacity: 80%;
+    opacity: 1600px;
     transition-duration: .5s;
     color: antiquewhite;
     font-size: 1.3em;
 }
 .history03:hover{
-    opacity: 80%;
+    opacity: 1366px;
     transition-duration: .5s;
     color: antiquewhite;
     font-size: 1.3em;
@@ -177,7 +179,7 @@ body{
     background-color: rgb(42, 42, 43);
  }
  #social-media{
-    max-width: 1200px;
+    max-width: 1366px;
     min-width: 320px;
     margin: auto;
     display: flex;
@@ -190,9 +192,9 @@ body{
     margin: 5px;
  }
  .btn_social-medias{
-    border-radius: 14px;
+    border-radius: 5px;
     background-color: #051933;
-    width: 1170px;
+    width: 98%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,7 +210,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1200px;
+    max-width: 1366px;
     min-width: 320px;
     height: 20%px;
     margin: auto;
@@ -224,6 +226,7 @@ body{
     font-family: 'Roboto', sans-serif;
     text-align: justify;
     color: white;
+    padding: 25px;
 }
 .informs-rodape{
     display: flex;
@@ -231,7 +234,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--cor-02);
-    max-width: 1200px;
+    max-width: 1366px;
     min-width: 320px;
     margin: auto;
     min-height: 80px;
@@ -261,7 +264,7 @@ body{
     margin-left: 15px;
 }
 .footer{
-    max-width: 1200px;
+    max-width: 1366px;
     min-width: 320px;
     display: flex;
     justify-content: center;
