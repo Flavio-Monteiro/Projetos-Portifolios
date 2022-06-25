@@ -115,9 +115,10 @@ body{
 }
 .content-section{
     color: whitesmoke;
-    text-align: center;
+    text-align: justify;
     padding: 20px;
 }
-.content-section img{
-    border-radius: 40px;
+.img-fm{
+    
+    border-radius: 150px;
 }
