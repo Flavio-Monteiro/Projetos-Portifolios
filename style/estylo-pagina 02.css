@@ -111,5 +111,13 @@ body{
     justify-content:  center;
     align-items: center;
     flex-wrap: wrap;
-    margin: auto;
-    
+    margin: auto;   
+}
+.content-section{
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+.content-section img{
+    border-radius: 40px;
+}
