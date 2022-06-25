@@ -63,7 +63,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: var(--cor-02);
-    max-width: 1366px;
+    max-width: 80%;
     min-width: 320px;
     margin: auto;
     min-height: 100px;
@@ -82,7 +82,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1366px;
+    max-width: 80%;
     min-width: 320px;
     margin: auto;
     min-height: 50px;
@@ -106,7 +106,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     opacity: 90%;
-    max-width: 1366px;
+    max-width: 80%;
     min-width: 320px;
     min-height: 100vh;
     display: flex;
@@ -115,7 +115,6 @@ body{
     flex-wrap: wrap;
     margin: auto;
     box-shadow: 12px 12px 12px rgba(26, 26, 26, 0.839);
-    border: solid  rgba(213, 211, 211, 0.08);
  }
  .history01, .history02, .history03, .history04{
     text-transform: uppercase;
@@ -137,7 +136,7 @@ body{
     background-size: auto; 
  }
 .history01:hover{
-    opacity: 1366px;
+    opacity: 80%;
     transition-duration: .5s;
     color: antiquewhite;
     font-size: 1.3em;
@@ -149,7 +148,7 @@ body{
     font-size: 1.3em;
 }
 .history03:hover{
-    opacity: 1366px;
+    opacity: 80%;
     transition-duration: .5s;
     color: antiquewhite;
     font-size: 1.3em;
@@ -179,17 +178,18 @@ body{
     background-color: rgb(42, 42, 43);
  }
  #social-media{
-    max-width: 1366px;
+    max-width: 80%;
     min-width: 320px;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #0d0d0ddc;
-    min-height: 90px;
+    min-height: 90%;
 }
  #social-media img{
     margin: 5px;
+    
  }
  .btn_social-medias{
     border-radius: 5px;
@@ -210,7 +210,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1366px;
+    max-width: 80%;
     min-width: 320px;
     height: 20%px;
     margin: auto;
@@ -234,7 +234,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--cor-02);
-    max-width: 1366px;
+    max-width: 80%;
     min-width: 320px;
     margin: auto;
     min-height: 80px;
@@ -268,7 +268,7 @@ body{
     margin-left: 15px;
 }
 .footer{
-    max-width: 1366px;
+    max-width: 80%;
     min-width: 320px;
     display: flex;
     justify-content: center;
