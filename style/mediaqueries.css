@@ -19,14 +19,10 @@
     }
     .history01, .history02, .history03, .history04{
         min-height: 150px;
+       
         min-width: 150px;
+       
     }
-    #social-media img{
-        margin: 5px;
-        border: dashed rebeccapurple;
-        max-width: 4%;
-        min-width: 4%;
-        max-height: 4%;
-        min-height: 4%;
-     }
+   
+   
 }
