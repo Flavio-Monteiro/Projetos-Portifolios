@@ -67,7 +67,6 @@ body{
     min-width: 320px;
     margin: auto;
     min-height: 100px;
-   
 }
 #cabecalho h1{
     font-size: 3em;
@@ -76,7 +75,6 @@ body{
     text-transform: uppercase;
     text-shadow: 5px 5px 5px rgba(64, 64, 64, 0.882);
     font-family: 'Roboto', sans-serif;
-
 }
 #nav-bar{
     display: flex;
@@ -116,66 +114,80 @@ body{
     margin: auto;
     box-shadow: 12px 12px 12px rgba(26, 26, 26, 0.839);
  }
- .history01, .history02, .history03, .history04{
+ .history-container01,.history-container02,.history-container03,.history-container04{
+    margin: 10px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 0px 5px 10px 5px;
+ }
+ .img-history01, .img-history02, .img-history03, .img-history04{
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
     min-height: 250px;
     min-width: 250px;
-    border-radius: 50%;
     margin: 10px;
     padding: 10px;
-    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.904);
+    box-shadow: 10px 5px 10px rgba(39, 39, 39, 0.904);
+    border: dashed rgba(102, 51, 153, 0.706);
+    border-radius: 25px;
+    cursor: pointer;
  }
- .history01{
-    background-image: url('../images/backgrounds/014.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto; 
- }
-.history01:hover{
-    opacity: 80%;
+.img-history01:hover{
+    opacity: 70%;
     transition-duration: .5s;
     color: antiquewhite;
     font-size: 1.3em;
+    box-shadow: none;
 }
-.history02:hover{
-    opacity: 1600px;
+.img-history02:hover{
+    opacity: 70%;
     transition-duration: .5s;
     color: antiquewhite;
     font-size: 1.3em;
+    box-shadow: none;
 }
-.history03:hover{
-    opacity: 80%;
+.img-history03:hover{
+    opacity: 70%;
     transition-duration: .5s;
     color: antiquewhite;
     font-size: 1.3em;
+    box-shadow: none;
 }
-.history04:hover{
-    opacity: 80%;
+.img-history04:hover{
+    opacity: 70%;
     transition-duration: .5s;
     color: antiquewhite;
+    box-shadow: none;
 }
- .history02{
-    background-image: url('../images/backgrounds/009.jpg');
+.img-history01{              /* primeira imagem SOBRE O DESENVOLVEDOR*/
+    background-image: url('../images/backgrounds/flavio02p.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 50%; 
  }
- .history03{
-    background-image: url('../images/backgrounds/014.jpg');
+ .img-history02{            /* Segundaa imagem PROJETOS MOBILE*/
+    background-image: url('../images/backgrounds/017.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 50%; 
  }
- .history04{
-    background-image: url('../images/backgrounds/011.jpg');
+ .img-history03{            /* Tterceira imagem PROJETOS DESKTOPS*/
+    background-image: url('../images/backgrounds/019.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-color: rgb(42, 42, 43);
+    background-size: cover;
+    border-radius: 50%; 
+ }
+ .img-history04{            /* Quartaa imagem PORTIFÓLIO COMPLETO*/
+    background-image: url('../images/backgrounds/015.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;     
  }
  #social-media{
     max-width: 80%;
@@ -266,6 +278,7 @@ body{
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 15px;
+    margin-right: 20px;
 }
 .footer{
     max-width: 80%;
@@ -279,4 +292,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: white;
+}
+.btn-navigator{
+    min-width: 100px;
+    min-height: 30px;
+    border-radius: 10px;
 }
