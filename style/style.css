@@ -132,7 +132,7 @@ body{
     box-shadow: 10px 5px 10px rgba(39, 39, 39, 0.904);
     border: dashed rgba(102, 51, 153, 0.706);
     border-radius: 25px;
-    cursor: pointer;
+    
  }
 .img-history01:hover{
     opacity: 70%;
