@@ -302,3 +302,6 @@ body{
     text-decoration: none;
     color: wheat;
 }
+.history-container01 a:hover{
+    text-decoration: underline;
+}
