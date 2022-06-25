@@ -119,6 +119,8 @@ body{
     text-align: center;
     color: whitesmoke;
     padding: 0px 5px 10px 5px;
+    border-radius: 50%;
+    border: solid rebeccapurple;
  }
  .img-history01, .img-history02, .img-history03, .img-history04{
     text-transform: uppercase;
