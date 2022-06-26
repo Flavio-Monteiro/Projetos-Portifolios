@@ -59,6 +59,7 @@ body{
 }
 #cabecalho{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: var(--cor-02);
@@ -88,42 +89,19 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-#nav-bar a{
+.btn-back:hover{
+    opacity: 70%;
+    transition-duration: .6s;
+}
+/**#nav-bar a{
     text-decoration: none;
     color: antiquewhite;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 1.3em;
     margin: 10px;
-}
-#social-media{
-    max-width: 80%;
-    min-width: 320px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0d0d0ddc;
-    min-height: 90%;
-}
- #social-media img{
-    margin: 5px;
-    
- }
- .btn_social-medias{
-    border-radius: 5px;
-    background-color: #051933;
-    width: 98%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px
- }
- .btn_facebook:hover, .btn_instagram:hover, .btn_youtube:hover, .btn_linkedin:hover, .btn_github:hover{
-    opacity: 60%;
-    transition-duration: .4s;
-    cursor: pointer;
- }
+   padding: -9px;
+}*/
 .main{
     background-image: url('../images/backgrounds/007.jpg');
     background-position: center;
@@ -139,6 +117,10 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: auto;   
+    box-shadow: 12px 12px 12px rgba(26, 26, 26, 0.839);
+}
+.img-fm{
+    border-radius: 150px;
 }
 .content-section h1{
     color: whitesmoke;
@@ -151,8 +133,43 @@ body{
     text-align: justify;
     padding: 20px;
 }
-.img-fm{
-    max-width: 250px;
-    min-height: 350px;
-    border-radius: 150px;
+
+#social-media{
+    max-width: 80%;
+    min-width: 320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0ddc;
+    min-height: 90%;
+}
+ #social-media img{
+    margin: 5px; 
+ }
+ .btn_social-medias{
+    background-color: #051933;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+ }
+ .btn_facebook:hover, .btn_instagram:hover, .btn_youtube:hover, .btn_linkedin:hover, .btn_github:hover{
+    opacity: 60%;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+.footer{
+    max-width: 80%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.814);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: white;
 }
