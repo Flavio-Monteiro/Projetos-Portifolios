@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@media (max-width: 1456px){
+    #cabecalho h1{
+        font-size: 2em;
+    }
+    .img-fm{
+        min-width: 240px;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+}

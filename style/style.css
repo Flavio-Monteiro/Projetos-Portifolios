@@ -201,7 +201,6 @@ body{
 }
  #social-media img{
     margin: 5px;
-    
  }
  .btn_social-medias{
     background-color: #051933;
@@ -297,10 +296,10 @@ body{
     min-height: 30px;
     border-radius: 10px;
 }
-.history-container01 a{
+.history-container01 a,.history-container02 a,.history-container03 a,.history-container04 a{
     text-decoration: none;
     color: wheat;
 }
-.history-container01 a:hover{
+.history-container01 a:hover,.history-container02 a:hover,.history-container03 a:hover,.history-container04 a:hover{
     text-decoration: underline;
 }
