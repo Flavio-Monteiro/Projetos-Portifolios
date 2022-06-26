@@ -24,7 +24,6 @@ body{
     min-width: 100%;
     font-family: sans-serif;
     letter-spacing: 1px;
-   
 }
 @font-face {
     font-family: 'Rockit';
@@ -153,6 +152,7 @@ body{
     padding: 20px;
 }
 .img-fm{
-    
+    max-width: 250px;
+    min-height: 350px;
     border-radius: 150px;
 }
