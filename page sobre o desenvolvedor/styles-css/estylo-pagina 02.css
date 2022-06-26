@@ -106,7 +106,7 @@ body{
    padding: -9px;
 }*/
 .main{
-    background-image: url("../images/backgrounds/00.jpg");
+    background-image: url("../images/05.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,6 +124,15 @@ body{
 }
 .img-fm{
     border-radius: 150px;
+    opacity: 85%;
+}
+.content-section{
+    background-image: url('../images/007.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 95%;
+
 }
 .content-section h1{
     color: whitesmoke;
