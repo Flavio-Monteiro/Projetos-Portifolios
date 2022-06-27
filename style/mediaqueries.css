@@ -26,6 +26,12 @@
         min-width: 150px;
         
     }
+    .infor-rodape h3{
+        text-align: center;
+    }
+    .logo-flavio{
+        display: none;
+    }
    
    
 }/*MEDIAS PARA A PÁGINA 2*/
