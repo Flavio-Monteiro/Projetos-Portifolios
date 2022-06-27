@@ -15,7 +15,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-image: url('../images/backgrounds/001.jpg');
+    background-image: url('../images/backgrounds/007.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: var(--cor-02);
-    max-width: 80%;
+    max-width: 100%;
     min-width: 320px;
     margin: auto;
     min-height: 100px;
@@ -80,7 +80,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 80%;
+    max-width: 100%;
     min-width: 320px;
     margin: auto;
     min-height: 50px;
@@ -98,13 +98,13 @@ body{
     margin: 10px;
 }
 .main{
-    background-image: url('../images/backgrounds/007.jpg');
+    background-image: url('../images/backgrounds/0.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     opacity: 90%;
-    max-width: 80%;
+    max-width: 100%;
     min-width: 320px;
     min-height: 100vh;
     display: flex;
@@ -190,7 +190,7 @@ body{
     border-radius: 50%;     
  }
  #social-media{
-    max-width: 80%;
+    max-width: 100%;
     min-width: 320px;
     margin: auto;
     display: flex;
@@ -204,7 +204,7 @@ body{
  }
  .btn_social-medias{
     background-color: #051933;
-    width: 98%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +220,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 80%;
+    max-width: 100%;
     min-width: 320px;
     height: 20%px;
     margin: auto;
@@ -244,7 +244,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--cor-02);
-    max-width: 80%;
+    max-width: 100%;
     min-width: 320px;
     margin: auto;
     min-height: 80px;
@@ -279,7 +279,7 @@ body{
     margin-right: 20px;
 }
 .footer{
-    max-width: 80%;
+    max-width: 100%;
     min-width: 320px;
     display: flex;
     justify-content: center;
