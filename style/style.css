@@ -122,7 +122,6 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    box-shadow: 12px 12px 12px rgba(26, 26, 26, 0.839);
  }
  .history-container01,.history-container02,.history-container03,.history-container04{
     margin: 10px;
@@ -212,7 +211,6 @@ body{
     margin: 5px;
  }
  .btn_social-medias{
-    background-color: #051933;
     width: 100%;
     display: flex;
     justify-content: center;
