@@ -18,7 +18,7 @@
         font-size: .5em;
     }
     #nav-bar{
-        font-size: 1em;
+        font-size: .5em;
     }
     .img-history01, .img-history02, .img-history03, .img-history04{
         min-height:150px;
@@ -30,7 +30,7 @@
         text-align: center;
     }
     .logo-flavio{
-        
+        display: none;
     }
    
    
