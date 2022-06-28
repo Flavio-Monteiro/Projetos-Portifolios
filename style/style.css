@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1.900 & display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 *{
     padding: 0PX;
@@ -15,14 +16,14 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-image: url('../images/backgrounds/007.jpg');
+   background-color: #17181C;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100%;
     min-width: 100%;
-    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 1px;
    
 }
@@ -84,18 +85,27 @@ body{
     min-width: 320px;
     margin: auto;
     min-height: 50px;
-    background-image: url('../images/backgrounds/007.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 30px;
 }
 #nav-bar a{
     text-decoration: none;
     color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 1.3em;
     margin: 10px;
+}
+.nav-barc{
+    min-width: 80%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-nav-bar{
+   
 }
 .main{
     background-image: url('../images/backgrounds/0.jpg');

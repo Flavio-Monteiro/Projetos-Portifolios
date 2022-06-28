@@ -22,16 +22,22 @@
     }
     .img-history01, .img-history02, .img-history03, .img-history04{
         min-height:150px;
-       
         min-width: 150px;
-        
     }
     .infor-rodape h3{
         text-align: center;
     }
-    .logo-flavio{
-        display: none;
+
+    .nav-barc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
     }
+    .nav-barc{
+        flex-wrap: wrap;
+    }
+
    
    
 }/*MEDIAS PARA A PÁGINA 2*/
