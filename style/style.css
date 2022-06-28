@@ -280,7 +280,6 @@ body{
 .mobile h1{
     font-size: 5em;
     text-align: center;
-    color: #0D0D0D;
 }
 .mobile h1:hover{
     color: #67ab23;
@@ -291,11 +290,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/backgrounds/0017.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
+    max-width: 90%;
     min-width: 320px;
-    min-height: 100vh;
+    min-height: 90vh;
+    border: solid wheat;
+    margin: auto;
+    border-radius: 100px;
 }
