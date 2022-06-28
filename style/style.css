@@ -25,6 +25,8 @@ body{
     min-width: 100%;
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 1px;
+    color: wheat;
+    
    
 }
 @font-face {
@@ -274,4 +276,26 @@ body{
 .btn_social-medias{
     max-width: 300px;
     min-width: 320px;
+}
+.mobile h1{
+    font-size: 5em;
+    text-align: center;
+    color: #0D0D0D;
+}
+.mobile h1:hover{
+    color: #67ab23;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/backgrounds/0017.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-width: 320px;
+    min-height: 100vh;
 }
