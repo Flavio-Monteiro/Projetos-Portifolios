@@ -81,15 +81,16 @@ body{
     font-size: 1.3em;
     margin: 10px;
 }
+.content01:hover, .content02:hover, .content03:hover{
+    opacity: 50%;
+    transition-duration: .5s;
+}
 .nav-barc{
     min-width: 80%;
     min-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.content-nav-bar{
-   
 }
 .main{
     background-image: linear-gradient(to right, #17181C,#1F2326,#17181C);
@@ -196,6 +197,7 @@ body{
     align-items: center;
     padding: 10px
  }
+ 
  .btn_facebook:hover, .btn_instagram:hover, .btn_youtube:hover, .btn_linkedin:hover, .btn_github:hover{
     opacity: 60%;
     transition-duration: .4s;
@@ -229,18 +231,7 @@ body{
     font-weight: normal;
     font-size: .9em;
 }
-.logo-flavio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px;
-    height: 120px;
-    background-color: #23232378;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 20px;
-}
+
 .footer{
     max-width: 100%;
     min-width: 320px;
@@ -265,4 +256,22 @@ body{
 }
 .history-container01 a:hover,.history-container02 a:hover,.history-container03 a:hover,.history-container04 a:hover{
     text-decoration: underline;
+}
+.logo-flavio h1{
+    color: wheat;
+    text-align: center;
+    font-size: 1.7em;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn_social-medias img{
+    width: 25px;
+    height: 25px;
+}
+.btn_social-medias{
+    max-width: 300px;
+    min-width: 320px;
 }
