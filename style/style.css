@@ -81,6 +81,31 @@ body{
     font-size: 1.3em;
     margin: 10px;
 }
+#social-media{
+    max-width: 100%;
+    min-width: 320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90%;
+}
+ #social-media img{
+    margin: 5px;
+ }
+ .btn_social-medias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+ }
+ .btn_facebook, .btn_instagram, .btn_youtube, .btn_linkedin, .btn_github{
+    transition: transform .5s;
+ }
+ .btn_facebook:hover, .btn_facebook:hover, .btn_instagram:hover, .btn_youtube:hover, .btn_linkedin:hover, .btn_github:hover{
+    transform: scale(1.5);
+ }
 .content01:hover, .content02:hover, .content03:hover{
     opacity: 50%;
     transition-duration: .5s;
@@ -133,6 +158,7 @@ body{
     color: wheat;
 }
 .developer-container01 a:hover,.mobile-container02 a:hover,.desktops-container03 a:hover,.completo-container04 a:hover{
+    
 }
  .img-history01, .img-history02, .img-history03, .img-history04{
     text-transform: uppercase;
@@ -201,30 +227,7 @@ body{
     background-size: cover;
     border-radius: 50%;     
  }
- #social-media{
-    max-width: 100%;
-    min-width: 320px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 90%;
-}
- #social-media img{
-    margin: 5px;
- }
- .btn_social-medias{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px
- }
- .btn_facebook:hover, .btn_instagram:hover, .btn_youtube:hover, .btn_linkedin:hover, .btn_github:hover{
-    opacity: 60%;
-    transition-duration: .4s;
-    cursor: pointer;
- }
+ 
 .informs-rodape{
     display: flex;
     justify-content:center;
@@ -253,6 +256,7 @@ body{
     font-weight: normal;
     font-size: .9em;
 }
+
 .footer{
     max-width: 100%;
     min-width: 320px;
