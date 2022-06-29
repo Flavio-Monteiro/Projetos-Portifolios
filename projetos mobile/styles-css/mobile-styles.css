@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1.900 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0PX;
+    margin: 0px;
+}
+html{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    min-height: 100%;
+    min-width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+@font-face {
+    font-family: 'Rockit';
+    src: url('../fonts/Rockit.otf');
+}
+@font-face {
+    font-family: "Storm";
+    src: url('../fonts/stormfaze.otf');
+}
+@font-face {
+    font-family: 'Hell';
+    src: url('../fonts/Living\ Hell.otf');
+}
+:root{
+    --fonte-rockit:'Rockit';
+    --font--storm:'Storm';
+    --font-hell:'Hell';
+      
+}
+#cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    min-height: 100px;
+    margin: auto;
+    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+}
+#cabecalho h1{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #ffed29;
+}
+#container-main {
+    background-image: linear-gradient(to right, #17181C, #1F2326, #17181C);
+    max-width: 90%;
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+
+}
+.content-section{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 800px;
+}.ios h1{
+    text-align: center;
+    margin-top: 20px;
+    color: wheat;
+    font-size: 1.7em;
+}.android h1{
+    text-align: center;
+    margin-top: 20px;
+    color: wheat;
+    font-size: 1.7em;
+}
+.footer {
+    max-width: 90%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: auto;
+    background-color: rgba(23, 23, 23, 0.814);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: white;
+}

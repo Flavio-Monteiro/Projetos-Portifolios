@@ -86,11 +86,11 @@ body {
 .contact,
 .enter,
 .apoie{
-    transition: transform .5s;
+    transition: transforma .5s;
 }
 .contact:hover,
 .enter:hover,
-.apoie:hover{
+.apoieHover{
     transform: scale(1.2);
 }
 
@@ -121,7 +121,7 @@ body {
 .btn_youtube,
 .btn_linkedin,
 .btn_github {
-    transition: transform .3s;
+    transition: transform .5s;
 }
 
 .btn_facebook:hover,
@@ -130,8 +130,10 @@ body {
 .btn_youtube:hover,
 .btn_linkedin:hover,
 .btn_github:hover {
-    transform: scale(1.3);
+    transform: scale(1.5);
+    
 }
+
 
 .container-navbar {
     min-width: 80%;

@@ -1,11 +1,264 @@
+@@ -1,263 +0,0 @@
 @charset "UTF-8";
-@media (max-width: 1456px){
-    #cabecalho h1{
-        font-size: 2em;
-    }
-    .img-fm{
-        min-width: 240px;
-        max-width: 250px;
-        margin-top: 20px;
-    }
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1.900 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    padding: 0PX;
+    margin: 0px;
+}
+html{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    min-width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+    color: wheat;
+}
+@font-face {
+    font-family: 'Rockit';
+    src: url('../fonts/Rockit.otf');
+}
+@font-face {
+    font-family: "Storm";
+    src: url('../fonts/stormfaze.otf');
+}
+@font-face {
+    font-family: 'Hell';
+    src: url('../fonts/Living\ Hell.otf');
+}
+:root{
+    --fonte-rockit:'Rockit';
+    --font--storm:'Storm';
+    --font-hell:'Hell';
+   
+    --cor-001:#051933;
+    --cor-01: #140570;
+    --cor-02: #113f62dd;
+    --cor-03: #6EBDEB;
+    --cor-04: #3863d0d7;
+    --cor-05: #041C39;
+    --cor-06: #dfdbdb;
+    --cor-07: #0D0D0D;
+    --cor-08: #262626;
+    --cor-09: #595959;
+    --cor-10: #A6A6A6;
+    --cor-11: #a1a1a1;
+    --cor-12: #FFF159;  
+    --cor-13: #2e89f9d6;      
+}
+#cabecalho{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    min-width: 320px;
+    margin: auto;
+    min-height: 100px;
+}
+#cabecalho h1{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+#nav-bar{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    min-width: 320px;
+    margin: auto;
+    min-height: 50px;
+}
+#nav-bar h4{
+    color: whitesmoke;
+}
+.btn-back{
+    transition: transform .5s;
+}
+.btn-back:hover{
+    transform: scale(1.2);
+}
+.main{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    max-width: 80%;
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;   
+    
+}
+.img-fm{
+    border-radius: 50px;
+    opacity: 85%;
+    margin-bottom: 20px;
+    box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.413);
+}
+.container-img-flavio{
+
+}
+.content-section{
+    width: 650px;
+    min-height: 400px;
+;
+}
+.content-section h1{
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+}
+.content-section h2{
+    text-align: center;
+    font-size: 1.9em;
+}
+.content-section p{
+    color: wheat;
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.5em;
+}
+.flavio{
+    color: #ffee7c;
+}
+.monteiros{
+    color: #fff;
+}
+#social-media{
+    max-width: 80%;
+    min-width: 320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525dc;
+    min-height: 90%;
+}
+ #social-media img{
+    margin: 5px; 
+ }
+ .btn_facebook,
+.btn_instagram,
+.btn_youtube,
+.btn_linkedin,
+.btn_github {
+   width: 30px;
+   height: 30px;
+}
+ .btn_facebook,
+.btn_instagram,
+.btn_youtube,
+.btn_linkedin,
+.btn_github {
+    transition: transform .5s;
+}
+
+.btn_facebook:hover,
+.btn_facebook:hover,
+.btn_instagram:hover,
+.btn_youtube:hover,
+.btn_linkedin:hover,
+.btn_github:hover {
+    transform: scale(1.5);
+}
+.habilidades-front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    max-width: 80%;
+    min-width: 320px;
+    min-height: 50px;
+    margin: auto;
+    background-color: #0d0d0ddc;
+}
+.habilidades-front h1{
+    text-align: center;
+}
+.tecnologias{
+    max-width: 80%;
+    min-width: 320px;
+    min-height: 200px;
+    margin: auto;
+    background-color: #0d0d0ddc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-html,
+.img-css,
+.img-angula-js,
+.img-javascript,
+.img-react,
+.img-vue-js,
+.img-jquery,
+.img-bootstrap,
+.img-selvt{
+    width: 68px;
+    height: 68px;
+    margin: 10px;
+    transition: transform .5s;
+}
+.img-html:hover,
+.img-css:hover,
+.img-angula-js:hover,
+.img-javascript:hover,
+.img-react:hover,
+.img-vue-js:hover,
+.img-jquery:hover,
+.img-bootstrap:hover,
+.img-selvt:hover{
+    transform:scale(1.2);
+}
+.tecnologias-front-end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;   
+    
+}
+.tecnologias-back-end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.img-tecnologias{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.footer{
+    max-width: 80%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.814);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: white;
 }
