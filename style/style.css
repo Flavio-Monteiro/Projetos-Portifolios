@@ -61,6 +61,7 @@ body {
     --cor-12: #FFF159;
     --cor-13: #2e89f9d6;
 }
+
 /*SEÇÃO  DO CONTAINER NAVEGAÇÃO*/
 #nav-bar {
     display: flex;
@@ -83,14 +84,16 @@ body {
     font-size: 1.3em;
     margin: 10px;
 }
+
 .contact,
 .enter,
-.apoie{
+.apoie {
     transition: transforma .5s;
 }
+
 .contact:hover,
 .enter:hover,
-.apoieHover{
+.apoieHover {
     transform: scale(1.2);
 }
 
@@ -131,7 +134,7 @@ body {
 .btn_linkedin:hover,
 .btn_github:hover {
     transform: scale(1.5);
-    
+
 }
 
 
@@ -164,6 +167,7 @@ body {
     max-width: 300px;
     min-width: 320px;
 }
+
 /*SEÇÃO  DO CONTAINER MAIN*/
 .main {
     background-image: linear-gradient(to right, #17181C, #1F2326, #17181C);
@@ -177,6 +181,7 @@ body {
     flex-wrap: wrap;
     margin: auto;
 }
+
 /*SEÇÕES DAS IMGENS  DO CONTAINER MAIN*/
 .developer-container01,
 .mobile-container02,
@@ -186,7 +191,7 @@ body {
     text-align: center;
     color: whitesmoke;
     padding: 0px 5px 10px 5px;
-    
+
 }
 
 .developer-container01 a,
@@ -196,35 +201,52 @@ body {
     text-decoration: none;
     color: wheat;
 }
-.developer-container01 h1,h2,
-.mobile-container02 h1,h2,
-.desktops-container03 h1,h2,
-.completo-container04 h1,h2 {
+
+.developer-container01 h1,
+h2,
+.mobile-container02 h1,
+h2,
+.desktops-container03 h1,
+h2,
+.completo-container04 h1,
+h2 {
     margin-top: 25px;
 }
+
 /*SEÇÕES DE ANIMAÇÃO NAS IMAGENS DO CANTAINER MAIN*/
-.developer-container01 img, .de{
+.developer-container01 img,
+.de {
     transition: transform .5s;
 }
-.developer-container01 img:hover{
+
+.developer-container01 img:hover {
     transform: scale(1.1);
 }
-.mobile-container02 img, .de{
+
+.mobile-container02 img,
+.de {
     transition: transform .5s;
 }
-.mobile-container02 img:hover{
+
+.mobile-container02 img:hover {
     transform: scale(1.1);
 }
-.desktops-container03 img, .de{
+
+.desktops-container03 img,
+.de {
     transition: transform .5s;
 }
-.desktops-container03 img:hover{
+
+.desktops-container03 img:hover {
     transform: scale(1.1);
 }
-.completo-container04 img, .de{
+
+.completo-container04 img,
+.de {
     transition: transform .5s;
 }
-.completo-container04 img:hover{
+
+.completo-container04 img:hover {
     transform: scale(1.1);
 }
 
