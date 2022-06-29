@@ -65,6 +65,8 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
+}.content-section h1{
+    min-width: 320px;
 }
 #navegacao{
     display: flex;
@@ -73,7 +75,7 @@ body{
     max-width: 90%;
     min-width: 320px;
     margin: auto;
-    background-color: #181817;
+    background-color: #ffed29;
 
 }
 
@@ -84,33 +86,7 @@ body{
     transform: scale(1.5);
 }
 
-.content-section{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    min-width: 320px;
-}
 
-.ios img{
-    margin-right: 60px;
-    
-}
-.android{
-    margin-left: 60px;
-}
-.ios h1{
-    text-align: center;
-    margin-top: 20px;
-    color: wheat;
-    font-size: 1.7em;
-    margin-left: 0px;
-    
-}.android h1{
-    text-align: center;
-    margin-top: 20px;
-    color: wheat;
-    font-size: 1.7em;
-}
 .footer {
     max-width: 90%;
     min-width: 320px;

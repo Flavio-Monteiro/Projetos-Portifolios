@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@media (max-width: 709px){
+    .ios img{
+        margin: 0;
+    }.ios h1{
+        text-align: center;
+        font-size: 1.7em;
+    }
+    .android {
+        margin: 0;
+       
+    }
+    

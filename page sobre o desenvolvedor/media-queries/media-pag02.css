@@ -1,0 +1,11 @@
+@media (max-width:1260px){
+    .img-fm{
+        width: 70%;
+        height: 70%;
+        margin-left: 56px;
+        margin-top: 20px;
+    }
+    #cabecalho h1{
+        font-size: 2em;
+    }
+}
