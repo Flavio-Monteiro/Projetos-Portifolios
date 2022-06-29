@@ -15,8 +15,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    min-height: 100%;
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
     min-width: 100%;
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 1px;
@@ -55,7 +54,8 @@ body{
     --cor-13: #2e89f9d6;      
 }
 #cabecalho{
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+ background-blend-mode: screen;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -72,7 +72,7 @@ body{
 
 }
 #nav-bar{
-    background-image: linear-gradient(to left, #434343 0%, black 100%);
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@ body{
     transform: scale(1.2);
 }
 .main{
-    background-image: linear-gradient(to left, #434343 0%, black 100%);
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
     max-width: 80%;
     min-width: 320px;
     min-height: 100vh;
@@ -100,16 +100,16 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: auto;   
-    box-shadow: 5px 5px 12px rgba(26, 26, 26, 0.839);
+    
 }
 .img-fm{
-    border-radius: 150px;
+    border-radius: 50px;
     opacity: 85%;
     margin-bottom: 20px;
+    box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.413);
 }
 .content-section{
  
-
 }
 .content-section h1{
     color: whitesmoke;
@@ -122,8 +122,11 @@ body{
     text-align: justify;
     padding: 20px;
 }
+.flavio{
+    color: black;
+}
 .monteiros{
-    color: #CD5C5C;
+    color: #c7c7c7;
 }
 #social-media{
     max-width: 80%;
@@ -187,6 +190,31 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.img-html,
+.img-css,
+.img-angula-js,
+.img-javascript,
+.img-react,
+.img-vue-js,
+.img-jquery,
+.img-bootstrap,
+.img-selvt{
+    width: 68px;
+    height: 68px;
+    margin: 10px;
+    transition: transform .5s;
+}
+.img-html:hover,
+.img-css:hover,
+.img-angula-js:hover,
+.img-javascript:hover,
+.img-react:hover,
+.img-vue-js:hover,
+.img-jquery:hover,
+.img-bootstrap:hover,
+.img-selvt:hover{
+    transform:scale(1.2);
 }
 .tecnologias-front-end{
     display: flex;
