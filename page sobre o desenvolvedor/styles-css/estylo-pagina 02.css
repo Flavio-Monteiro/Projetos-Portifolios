@@ -15,7 +15,8 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
     min-width: 100%;
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 1px;
@@ -54,8 +55,7 @@ body{
     --cor-13: #2e89f9d6;      
 }
 #cabecalho{
-    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
- background-blend-mode: screen;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -72,7 +72,7 @@ body{
 
 }
 #nav-bar{
-    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,12 +91,12 @@ body{
     transform: scale(1.2);
 }
 .main{
-    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     max-width: 80%;
     min-width: 320px;
     min-height: 100vh;
     display: flex;
-    justify-content:  center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     margin: auto;   
@@ -108,8 +108,13 @@ body{
     margin-bottom: 20px;
     box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.413);
 }
+.container-img-flavio{
+
+}
 .content-section{
- 
+    width: 650px;
+    min-height: 400px;
+;
 }
 .content-section h1{
     color: whitesmoke;
@@ -121,12 +126,13 @@ body{
     color: wheat;
     text-align: justify;
     padding: 20px;
+    font-size: 1.5em;
 }
 .flavio{
-    color: black;
+    color: #ffee7c;
 }
 .monteiros{
-    color: #c7c7c7;
+    color: #fff;
 }
 #social-media{
     max-width: 80%;
@@ -230,7 +236,6 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border: dashed red;
     margin: 20px;
     
 }
