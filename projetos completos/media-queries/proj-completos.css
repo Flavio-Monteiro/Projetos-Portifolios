@@ -1,10 +1,10 @@
 @charset "UTF-8";
-@media (max-width: 785px){
+@media (max-width: 780px){
     .content-section h1{
-        font-size: 1.5em;
-        margin: 0 auto;
+        font-size: 1.3em;
         text-align: center;
-    }#cabecalho h1{
-        font-size: 1.9em;
+    }
+    #cabecalho h1{
+        font-size: 1.2em;
     }
 }
