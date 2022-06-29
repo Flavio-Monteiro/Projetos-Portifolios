@@ -122,6 +122,10 @@ body{
     padding: 20px;
     font-size: 3em;
 }
+.content-section h2{
+    text-align: center;
+    font-size: 1.9em;
+}
 .content-section p{
     color: wheat;
     text-align: justify;

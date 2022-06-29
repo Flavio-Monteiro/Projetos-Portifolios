@@ -83,6 +83,16 @@ body {
     font-size: 1.3em;
     margin: 10px;
 }
+.contact,
+.enter,
+.apoie{
+    transition: transform .5s;
+}
+.contact:hover,
+.enter:hover,
+.apoie:hover{
+    transform: scale(1.2);
+}
 
 #social-media {
     max-width: 100%;
@@ -111,7 +121,7 @@ body {
 .btn_youtube,
 .btn_linkedin,
 .btn_github {
-    transition: transform .5s;
+    transition: transform .3s;
 }
 
 .btn_facebook:hover,
@@ -120,14 +130,7 @@ body {
 .btn_youtube:hover,
 .btn_linkedin:hover,
 .btn_github:hover {
-    transform: scale(1.5);
-}
-
-.contact:hover,
-.enter:hover,
-.apoie:hover {
-    opacity: 50%;
-    transition-duration: .5s;
+    transform: scale(1.3);
 }
 
 .container-navbar {
@@ -233,17 +236,19 @@ body {
     max-width: 100%;
     min-width: 320px;
     margin: auto;
-    height: 300px;
+    min-height: 300px;
     color: antiquewhite;
 }
 
 .infor-rodape {
     padding: 0px;
     margin: 0px;
+    min-height: 150px;
 }
 
 .infor-rodape h3 {
     font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .infor-rodape {
