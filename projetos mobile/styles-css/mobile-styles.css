@@ -73,6 +73,14 @@ body{
     margin: auto;
 
 }
+}
+.button-back{
+    transition: transform .5s;
+}
+.button-back:hover{
+    transform: scale(1.5);
+}
+
 .content-section{
     display: flex;
     justify-content: space-evenly;
