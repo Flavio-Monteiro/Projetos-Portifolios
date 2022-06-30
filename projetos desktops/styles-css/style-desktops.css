@@ -55,9 +55,27 @@ body{
     font-weight: bold;
     color: #ffed29;
 }
+#navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    min-width: 320px;
+    margin: auto;
+    background-color: #181817;
+
+}#navegacao h2{
+    color: #f5deb3;
+}
 .content-section h1{
     font-size: 4em;
     color: wheat;
+}
+.button-back{
+    transition: transform .5s;
+}
+.button-back:hover{
+    transform: scale(1.3);
 }
 #container-main {
     background-image: linear-gradient(to right, #17181C, #1F2326, #17181C);

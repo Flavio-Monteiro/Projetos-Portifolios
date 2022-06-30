@@ -137,19 +137,29 @@ body {
 
 }
 
-
 .container-navbar {
     min-width: 80%;
     min-height: 100px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
+   
+    
+}
+.logo-flavio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
 }
 
 .logo-flavio h1 {
     color: wheat;
     text-align: center;
     font-size: 1.7em;
+   
 }
 
 .links {
@@ -203,7 +213,7 @@ body {
 }
 .developer-container01 a:hover,
 .mobile-container02 a:hover,
-.desktops-container03 a>:hover,
+.desktops-container03 a:hover,
 .completo-container04 a:hover {
     text-decoration: underline;
 }
