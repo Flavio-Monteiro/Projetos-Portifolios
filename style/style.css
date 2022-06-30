@@ -88,12 +88,12 @@ body {
 .contact,
 .enter,
 .apoie {
-    transition: transforma .5s;
+    transition: transform .5s;
 }
 
 .contact:hover,
 .enter:hover,
-.apoieHover {
+.apoie:hover {
     transform: scale(1.2);
 }
 
@@ -201,6 +201,13 @@ body {
     text-decoration: none;
     color: wheat;
 }
+.developer-container01 a:hover,
+.mobile-container02 a:hover,
+.desktops-container03 a>:hover,
+.completo-container04 a:hover {
+    text-decoration: underline;
+}
+
 
 .developer-container01 h1,
 h2,
@@ -212,6 +219,7 @@ h2,
 h2 {
     margin-top: 25px;
 }
+
 
 /*SEÇÕES DE ANIMAÇÃO NAS IMAGENS DO CANTAINER MAIN*/
 .developer-container01 img,

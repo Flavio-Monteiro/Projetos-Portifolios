@@ -5,7 +5,30 @@
         margin-left: 56px;
         margin-top: 20px;
     }
+    #cabecalho{
+        max-width: 100%;
+    }#nav-bar{
+        max-width: 100%;
+    }.main{
+        max-width: 100%;
+    }.habilidades-front{
+        max-width: 100%;
+    }.tecnologias{
+        max-width: 100%;
+    }.footer{
+        max-width: 100%;
+    }
     #cabecalho h1{
         font-size: 2em;
+    }.content-section{
+        min-height: 250px;
+        margin: 0px;
+    }
+    .content-section h1{
+        margin-bottom: 0px;
+    }.content-section h2{
+        margin: 0px;
+    }.content-section p{
+        margin: 0px;
     }
 }
