@@ -31,6 +31,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 60%;
+    height: 60%;
 }
 
    /* .logo-flavio{
@@ -52,6 +54,9 @@
     margin-top: 10px;
     font-size: 2.5em;
   
+}
+.direitos-de-imagem{
+    text-align: center;
 }
    
 
