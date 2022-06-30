@@ -274,7 +274,7 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: var(--cor-02);
+    background-color: #161a1d;
     max-width: 100%;
     min-width: 320px;
     margin: auto;

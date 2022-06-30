@@ -78,7 +78,7 @@ body{
     transform: scale(1.3);
 }
 #container-main {
-    background-image: linear-gradient(to right, #17181C, #1F2326, #17181C);
+   background-color: #161a1d;
     max-width: 90%;
     min-width: 320px;
     min-height: 100vh;

@@ -78,7 +78,7 @@ body{
     transform: scale(1.2);
 }
 .main{
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-color: #161a1d;
     max-width: 80%;
     min-width: 320px;
     min-height: 100vh;
