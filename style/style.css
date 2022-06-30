@@ -147,6 +147,9 @@ body {
    
     
 }
+.content-nav-bar h2{
+    font-size: 1em;
+}
 .logo-flavio{
     display: flex;
     justify-content: center;
@@ -158,7 +161,7 @@ body {
 .logo-flavio h1 {
     color: wheat;
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.4em;
    
 }
 

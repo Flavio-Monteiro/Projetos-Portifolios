@@ -122,15 +122,15 @@ body{
 
 .flavio{
     color: #ffee7c;
-    border-bottom: 2px solid #ffee7c;
     border-top: 2px solid #ffee7c;
+    border-left: 2px solid #ffee7c;
 }
 
    
 .monteiros{
     color: #fff;
-    border-top: 2px solid #ffffff;
     border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
 }
 #social-media{
     max-width: 80%;
