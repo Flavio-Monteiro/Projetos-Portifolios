@@ -22,7 +22,6 @@ body {
     min-width: 100%;
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 1px;
-    color: wheat;
     margin: 0 auto;
     padding: 0px;
    
@@ -280,7 +279,7 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #04293A;
+    background-color: #eef0eb;
     max-width: 100%;
     min-width: 320px;
     margin: auto;
@@ -297,6 +296,7 @@ h2 {
 .infor-rodape h3 {
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
+    color: #153243;
 }
 
 .infor-rodape {
@@ -308,9 +308,10 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: .9em;
+    color:  #153243;
 }
 .direitos-de-imagem li>a{
-    color: white;
+    color: #153243;
     text-decoration: none;
 }
 
@@ -322,8 +323,10 @@ h2 {
     align-items: center;
     height: 80px;
     margin: auto;
-   background-color: #041C32;
+   background-color: #e2dfdf;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: white;
+}.footer h3{
+    color: black;
 }
