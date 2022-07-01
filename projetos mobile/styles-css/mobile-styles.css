@@ -92,13 +92,22 @@ body{
     flex-wrap: wrap;
     min-width: 320px;
 }
+.ios{
+   
+
+  
+}
 
 .ios img{
-    margin-right: 60px;
+    
+   
     
 }
 .android{
     margin-left: 60px;
+   
+}.android img{
+    
 }
 .ios h1{
     text-align: center;
