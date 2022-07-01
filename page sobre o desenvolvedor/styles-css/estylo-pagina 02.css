@@ -16,7 +16,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-color: #bfd7ea;
     background-blend-mode: multiply;
     min-width: 100%;
     font-family: 'Josefin Sans', sans-serif;
@@ -179,7 +179,7 @@ body{
     min-width: 320px;
     min-height: 50px;
     margin: auto;
-    background-color: #0d0d0ddc;
+    background-color: #ffffff;
 }
 .habilidades-front h1{
     text-align: center;
@@ -191,7 +191,7 @@ body{
     min-width: 320px;
     min-height: 200px;
     margin: auto;
-    background-color: #0d0d0ddc;
+    background-color: #eef0eb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,15 +228,6 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;   
-    
-}
-.tecnologias-back-end{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 20px;
     
 }
 
