@@ -99,15 +99,20 @@ body{
 }
 
 .ios img{
-    
-   
-    
+    transition: transform .5s;
+ 
+}
+.ios img:hover{
+    transform: rotatey(360deg);
 }
 .android{
     margin-left: 60px;
    
 }.android img{
-    
+    transition: transform .5s; 
+}
+.android img:hover{
+    transform: rotatey(360deg);
 }
 .ios h1{
     text-align: center;
