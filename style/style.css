@@ -228,6 +228,13 @@ h2 {
     margin-top: 25px;
     color: #112B3C;
 }
+.developer-container01 img,
+.mobile-container02 img,
+.desktops-container03 img,
+.completo-container04 img{
+    box-shadow:  0px 5px 5px rgba(62, 62, 62, 0.414);
+    border-radius: 30% 10px 30% 10px;
+}
 
 
 /*SEÇÕES DE ANIMAÇÃO NAS IMAGENS DO CANTAINER MAIN*/
@@ -302,10 +309,10 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: .9em;
-    color:  #f3f3f3;
+    color:  #cccccc;
 }
 .direitos-de-imagem li>a{
-    color: #ffffff;
+    color: #153243;
     text-decoration: none;
 }
 
