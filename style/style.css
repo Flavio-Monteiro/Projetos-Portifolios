@@ -81,6 +81,11 @@ body {
 .apoie {
     transition: transform .5s;
 }
+.contact h2,
+.enter h2,
+.apoie h2{
+    color: white;
+}
 
 .contact:hover,
 .enter:hover,
@@ -273,7 +278,7 @@ h2 {
     min-width: 320px;
     margin: auto;
     min-height: 300px;
-    color: antiquewhite;
+
 }
 
 .infor-rodape {
@@ -285,7 +290,7 @@ h2 {
 .infor-rodape h3 {
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
-    color: #153243;
+    color: #e6e6e6;
 }
 
 .infor-rodape {
@@ -297,10 +302,10 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: .9em;
-    color:  #153243;
+    color:  #f3f3f3;
 }
 .direitos-de-imagem li>a{
-    color: #153243;
+    color: #ffffff;
     text-decoration: none;
 }
 

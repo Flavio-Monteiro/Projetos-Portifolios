@@ -6,18 +6,13 @@
     #nav-bar{
         font-size: .8em;
     }
-    .img-history01, .img-history02, .img-history03, .img-history04{
-        min-height: 200px;
-        min-width: 200px;
-       
-    }
+    
 }
 @media (max-width: 1200px){
-    #cabecalho{
-        font-size: .5em;
-    }
+ 
     #nav-bar{
         font-size: .5em;
+        min-width: 100%;
     }
    
     .infor-rodape h3{
@@ -35,9 +30,6 @@
     height: 60%;
 }
 
-   /* .logo-flavio{
-        display: none;
-    }*/
 .developer-container01,
 .mobile-container02,
 .desktops-container03,
