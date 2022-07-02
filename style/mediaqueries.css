@@ -1,8 +1,5 @@
 @charset "UTF-8";
 @media (max-width: 1456px){
-    #cabecalho{
-        font-size: .7em;
-    }
     #nav-bar{
         font-size: .8em;
     }
@@ -12,7 +9,7 @@
  
     #nav-bar{
         font-size: .5em;
-        min-width: 100%;
+        min-width: 320px;
     }
    
     .infor-rodape h3{
@@ -39,7 +36,7 @@
     
 }
 .contact h2, .enter h2, .apoie h2 {
-    font-size: 1.7em;
+    font-size: .7em;
     
 
 }.logo-flavio h1{
@@ -50,7 +47,17 @@
 .direitos-de-imagem{
     text-align: center;
 }
-   
-
-
+@media (max-width: 482px){
+    .container-navbar{
+        flex-direction: column;
+    }
+    .content-nav-bar h2{
+        font-size: 1.7em;
+    }
+    .logo-flavio h1{
+        font-size: 3em;
+    }
+    .logo-flavio{
+        margin: 0 auto;
+    }
 }
