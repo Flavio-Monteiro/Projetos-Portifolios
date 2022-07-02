@@ -11,16 +11,17 @@
 html{
     margin: 0 auto;
     padding: 0;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     box-sizing: border-box;
 }
 body{
+    padding: 0px;
+    margin: 0 auto;
     background-color: #bfd7ea;
     background-blend-mode: multiply;
     min-width: 100%;
     font-family: 'Josefin Sans', sans-serif;
-    letter-spacing: 1px;
     color: wheat;
 }
 @font-face {
@@ -49,8 +50,9 @@ body{
     align-items: center;
     max-width: 80%;
     min-width: 320px;
-    margin: auto;
+    margin: 0 auto;
     min-height: 100px;
+    padding: 0px;
 }
 #cabecalho h1{
     font-size: 3em;
