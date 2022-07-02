@@ -1,0 +1,35 @@
+.developer-container01 img,
+.de {
+    transition: transform .5s;
+}
+
+.developer-container01 img:hover {
+    transform: scale(1.1);
+}
+
+.mobile-container02 img,
+.de {
+    transition: transform .5s;
+}
+
+.mobile-container02 img:hover {
+    transform: scale(1.1);
+}
+
+.desktops-container03 img,
+.de {
+    transition: transform .5s;
+}
+
+.desktops-container03 img:hover {
+    transform: scale(1.1);
+}
+
+.completo-container04 img,
+.de {
+    transition: transform .5s;
+}
+
+.completo-container04 img:hover {
+    transform: scale(1.1);
+}

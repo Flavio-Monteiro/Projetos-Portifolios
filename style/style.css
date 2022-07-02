@@ -213,7 +213,6 @@ h2 {
     border-radius: 30% 10px 30% 10px;
 }
 
-/*SEÇÕES DE ANIMAÇÃO NAS IMAGENS DO CANTAINER MAIN*/
 .developer-container01 img,
 .de {
     transition: transform .5s;
@@ -266,8 +265,9 @@ h2 {
 
 .infor-rodape {
     padding: 0px;
-    margin: 0px;
+    margin: 20px;
     margin-top: 10px;
+   
 }
 
 .infor-rodape h3 {
@@ -314,3 +314,4 @@ h2 {
 .footer h3 {
 
 }
+
