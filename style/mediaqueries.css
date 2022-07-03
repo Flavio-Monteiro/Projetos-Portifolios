@@ -36,7 +36,7 @@
     
 }
 .contact h2, .enter h2, .apoie h2 {
-    font-size: .7em;
+    font-size: 1.7em;
     
 
 }.logo-flavio h1{
@@ -52,7 +52,7 @@
         flex-direction: column;
     }
     .content-nav-bar h2{
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
     .logo-flavio h1{
         font-size: 3em;
@@ -67,5 +67,14 @@
         margin: 5px auto;
         width: 100%;
         text-align: center;
+    }
+    .container-main{
+        margin-bottom: 10px;
+    }.logo-flavio img{
+        width: 120px;
+        height: 120px;
+    }
+    .container-navbar{
+       
     }
 }
