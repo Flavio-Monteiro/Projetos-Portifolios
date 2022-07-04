@@ -57,6 +57,13 @@ body {
     max-width: 100%;
 
 }
+.content-nav-bar{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #nav-bar a {
     text-decoration: none;
@@ -64,41 +71,35 @@ body {
     color: rgb(255, 255, 255);
     font-size: 1.3em;
     margin: 10px;
+   
 
 }
-
-.contact,
-.enter,
-.apoie {}
-
-.contact:hover,
-.enter:hover,
-.apoie:hover {}
-
-.contact h2,
-.enter h2,
-.apoie h2 {
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.569);
-    min-width: 80px;
-    min-height: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    padding: 5px;
+.buttons-container{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #112B3C;
+    
 }
-
-.contact h2,
-.enter h2,
-.apoie h2 {
-    transition: background-color .7s;
+.buttons{
+    pad: px;
+    margin: 0px 6px ;
+    width: 110px;
+    min-height: 35px;
+    border: 1px solid #78938A;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #525E75;
+    color: #ffffff;
+    transition: background-color 1s;
+   
 }
+.buttons:hover{
+    background-color: #D18CE0;
+    color: #5D534A;
+    
 
-.contact h2:hover,
-.enter h2:hover,
-.apoie h2:hover {
-    background-color: rebeccapurple;
 }
 
 #social-media {
@@ -120,7 +121,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px
+    padding: 10px 0px 0px 0px;
 }
 
 .btn_facebook,
@@ -173,6 +174,8 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    border: dashed rgb(255, 255, 255);
+    margin-right: 30px;
 }
 
 .btn_social-medias img {
@@ -216,7 +219,8 @@ body {
 .developer-container01,
 .mobile-container02,
 .desktops-container03,
-.completo-container04 {
+.completo-container04,
+.photos-container05 {
     margin: 15px;
     text-align: center;
     color: whitesmoke;
@@ -227,7 +231,8 @@ body {
 .developer-container01 a,
 .mobile-container02 a,
 .desktops-container03 a,
-.completo-container04 a {
+.completo-container04 a,
+.photos-container05 {
     text-decoration: none;
     color: wheat;
 }
@@ -235,7 +240,8 @@ body {
 .developer-container01 a:hover,
 .mobile-container02 a:hover,
 .desktops-container03 a:hover,
-.completo-container04 a:hover {
+.completo-container04 a:hover,
+.photos-container05 {
     text-decoration: underline;
 }
 
@@ -246,6 +252,8 @@ h2,
 .desktops-container03 h1,
 h2,
 .completo-container04 h1,
+h2,
+.photos-container05 h1,
 h2 {
     margin-top: 25px;
     color: #112B3C;
@@ -254,9 +262,11 @@ h2 {
 .developer-container01 img,
 .mobile-container02 img,
 .desktops-container03 img,
-.completo-container04 img {
-    box-shadow: 0px 5px 5px rgba(62, 62, 62, 0.414);
+.completo-container04 img,
+.photos-container05 img {
+    box-shadow: 5px 5px 5px rgba(62, 62, 62, 0.414);
     border-radius: 30% 10px 30% 10px;
+    border: 1px solid #fff;
 }
 
 .developer-container01 img,
@@ -292,6 +302,12 @@ h2 {
 }
 
 .completo-container04 img:hover {
+    transform: scale(1.1);
+}
+.photos-container05 img{
+    transition: transform .5s;
+}
+.photos-container05 img:hover {
     transform: scale(1.1);
 }
 
