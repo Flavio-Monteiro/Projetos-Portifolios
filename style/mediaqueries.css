@@ -25,6 +25,7 @@
     justify-content: center;
     width: 60%;
     height: 60%;
+    padding: 5px;
 }
 
 .developer-container01,
@@ -97,6 +98,7 @@
     .developer-container01{
         width: 100%;
         background-color: #76BA99;
+        
     }
     .mobile-container02{
         width: 100%;
@@ -114,6 +116,7 @@
     .photos-container05{
         width: 100%;
         background-color: #a8cc8e;
+        border-radius: 0px 0px 20px 20px;
     
  }
  .container-main img{
