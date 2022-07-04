@@ -55,7 +55,7 @@
     }
     .buttons-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: ;
         justify-content: center;
         align-items: center;
         background-color: #FEF5ED;
@@ -111,7 +111,7 @@
         width: 100%;
         background-color: #FFDCAE;
     }
-    .photos-container0{
+    .photos-container05{
         width: 100%;
         background-color: #a8cc8e;
     
