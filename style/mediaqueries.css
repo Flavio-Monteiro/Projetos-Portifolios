@@ -103,34 +103,47 @@
     .mobile-container02{
         width: 100%;
         background-color: #ADCF9F;
-        
+        padding: 15px;
         
     }
      .desktops-container03{
         width: 100%;
         background-color: #CED89E;
-        
+        padding: 15px;
     }
      .completo-container04{
         width: 100%;
         background-color: #FFDCAE;
-       
+        padding: 15px;
     }
     .photos-container05{
         width: 100%;
         background-color: #a8cc8e;
         border-radius: 0px 0px 20px 20px;
-        
+        padding: 15px;
     
  }
  .developer-container01 img,
 .mobile-container02 img,
 .desktops-container03 img,
 .completo-container04  img,img{
-   margin-top: 15px;
+   margin: 15;
    padding: 8px;
-   width: 40%;
-   height: 40%;
+   width: 50%;
+   height: 50%;
 }
-
+.container-main{
+   
+}
+.developer-container01,
+.mobile-container02,
+.desktops-container03,
+.completo-container04,
+.photos-container05{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    width: 100vw;
+}
 }

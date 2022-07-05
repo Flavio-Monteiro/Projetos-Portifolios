@@ -225,10 +225,11 @@ body {
 .desktops-container03,
 .completo-container04,
 .photos-container05 {
-    margin: 15px;
+    margin: 10px;
     text-align: center;
     color: whitesmoke;
     padding: 0px 5px 10px 5px;
+    border: dashed red;
 
 }
 
