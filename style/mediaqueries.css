@@ -23,8 +23,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
     padding: 5px;
 }
 
@@ -48,7 +48,7 @@
 .direitos-de-imagem{
     text-align: center;
 }
-@media (max-width: 560px){
+@media (max-width: 666px){
     .container-navbar{
         flex-direction: column;
         justify-content: center;
@@ -56,7 +56,6 @@
     }
     .buttons-container{
         display: flex;
-        flex-direction: ;
         justify-content: center;
         align-items: center;
        
@@ -98,30 +97,38 @@
     .developer-container01{
         width: 100%;
         background-color: #76BA99;
+       
         
     }
     .mobile-container02{
         width: 100%;
         background-color: #ADCF9F;
         
+        
     }
      .desktops-container03{
         width: 100%;
         background-color: #CED89E;
+        
     }
      .completo-container04{
         width: 100%;
         background-color: #FFDCAE;
+       
     }
     .photos-container05{
         width: 100%;
         background-color: #a8cc8e;
         border-radius: 0px 0px 20px 20px;
+        
     
  }
- .container-main img{
-    padding-top: 10px;
-    margin-top: 10px;
- }   
+ .developer-container01 img,
+.mobile-container02 img,
+.desktops-container03 img,
+.completo-container04  img,img{
+   margin-top: 15px;
+   padding: 8px;
+}
 
 }

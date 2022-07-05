@@ -1,167 +1,190 @@
-@@ -1,263 +0,0 @@
-@charset "UTF-8";
+@@ -1,
+263+0,
+0 @@ @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1.900 & display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-*{
-    padding: 0PX;
-    margin: 0px;
+
+* {
+padding: 0PX;
+margin: 0px;
 }
-html{
-    margin: 0 auto;
-    padding: 0;
-    min-height: 100%;
-    width: 100%;
-    box-sizing: border-box;
+
+html {
+margin: 0 auto;
+padding: 0;
+min-height: 100%;
+width: 100%;
+box-sizing: border-box;
 }
-body{
-    padding: 0px;
-    margin: 0 auto;
-    background-color: #bfd7ea;
-    background-blend-mode: multiply;
-    min-width: 100%;
-    font-family: 'Josefin Sans', sans-serif;
-    color: wheat;
+
+body {
+padding: 0px;
+margin: 0 auto;
+background-color: #bfd7ea;
+background-blend-mode: multiply;
+min-width: 100%;
+font-family: 'Josefin Sans', sans-serif;
+color: wheat;
 }
+
 @font-face {
-    font-family: 'Rockit';
-    src: url('../fonts/Rockit.otf');
+font-family: 'Rockit';
+src: url('../fonts/Rockit.otf');
 }
+
 @font-face {
-    font-family: "Storm";
-    src: url('../fonts/stormfaze.otf');
+font-family: "Storm";
+src: url('../fonts/stormfaze.otf');
 }
+
 @font-face {
-    font-family: 'Hell';
-    src: url('../fonts/Living\ Hell.otf');
+font-family: 'Hell';
+src: url('../fonts/Living\ Hell.otf');
 }
-:root{
-    --fonte-rockit:'Rockit';
-    --font--storm:'Storm';
-    --font-hell:'Hell';
-  
-}
-#cabecalho{
-    background-image: linear-gradient(60deg, #29323c 10%, #485563 0%, #29323c 0%);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%;
-    min-width: 320px;
-    margin: 0 auto;
-    min-height: 100px;
-    padding: 0px;
-}
-#cabecalho h1{
-    font-size: 3em;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+
+:root {
+--fonte-rockit: 'Rockit';
+--font--storm: 'Storm';
+--font-hell: 'Hell';
 
 }
-#nav-bar{
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%;
-    min-width: 320px;
-    margin: auto;
-    min-height: 50px;
+
+#cabecalho {
+background-image: linear-gradient(60deg, #29323c 10%, #485563 0%, #29323c 0%);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+max-width: 80%;
+min-width: 320px;
+margin: 0 auto;
+min-height: 100px;
+padding: 0px;
 }
-#nav-bar h4{
-    color: whitesmoke;
-}
-.btn-back{
-    transition: transform .5s;
-}
-.btn-back:hover{
-    transform: scale(1.2);
-}
-.main{
-    background-color: #161a1d;
-    max-width: 80%;
-    min-width: 320px;
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;   
-    
-}
-.img-fm{
-    border-radius: 50px;
-    opacity: 85%;
-    margin-bottom: 20px;
-    box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.413);
+
+#cabecalho h1 {
+font-size: 3em;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
 
 }
-.container-img-flavio{
+
+#nav-bar {
+background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 80%;
+min-width: 320px;
+margin: auto;
+min-height: 50px;
+}
+
+#nav-bar h4 {
+color: whitesmoke;
+}
+
+.btn-back {
+transition: transform .5s;
+}
+
+.btn-back:hover {
+transform: scale(1.2);
+}
+
+.main {
+background-color: #161a1d;
+max-width: 80%;
+min-width: 320px;
+min-height: 100vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
 
 }
-.content-section{
-    width: 650px;
-    min-height: 400px;
+
+.img-fm {
+border-radius: 50px;
+opacity: 85%;
+margin-bottom: 20px;
+box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.413);
+
+}
+
+.container-img-flavio {}
+
+.content-section {
+width: 650px;
+min-height: 400px;
 ;
 }
-.content-section h1{
-    color: whitesmoke;
-    text-align: center;
-    padding: 20px;
-    font-size: 3em;
-}
-.content-section h2{
-    text-align: center;
-    font-size: 1.9em;
-}
-.content-section p{
-    color: wheat;
-    text-align: justify;
-    padding: 20px;
-    font-size: 1.5em;
+
+.content-section h1 {
+color: whitesmoke;
+text-align: center;
+padding: 20px;
+font-size: 3em;
 }
 
-.flavio{
-    color: #ffee7c;
-    border-top: 2px solid #ffee7c;
-    border-left: 2px solid #ffee7c;
+.content-section h2 {
+text-align: center;
+font-size: 1.9em;
 }
 
-   
-.monteiros{
-    color: #fff;
-    border-bottom: 2px solid #fff;
-    border-right: 2px solid #fff;
+.content-section p {
+color: wheat;
+text-align: justify;
+padding: 20px;
+font-size: 1.5em;
 }
-#social-media{
-    max-width: 80%;
-    min-width: 320px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #252525dc;
-    min-height: 90%;
+
+.flavio {
+color: #ffee7c;
+border-top: 2px solid #ffee7c;
+border-left: 2px solid #ffee7c;
 }
- #social-media img{
-    margin: 5px; 
- }
- .btn_facebook,
+
+
+.monteiros {
+color: #fff;
+border-bottom: 2px solid #fff;
+border-right: 2px solid #fff;
+}
+
+#social-media {
+max-width: 80%;
+min-width: 320px;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #252525dc;
+min-height: 90%;
+}
+
+#social-media img {
+margin: 5px;
+}
+
+.btn_facebook,
 .btn_instagram,
 .btn_youtube,
 .btn_linkedin,
 .btn_github {
-   width: 30px;
-   height: 30px;
+width: 30px;
+height: 30px;
 }
- .btn_facebook,
+
+.btn_facebook,
 .btn_instagram,
 .btn_youtube,
 .btn_linkedin,
 .btn_github {
-    transition: transform .5s;
+transition: transform .5s;
 }
 
 .btn_facebook:hover,
@@ -170,36 +193,40 @@ body{
 .btn_youtube:hover,
 .btn_linkedin:hover,
 .btn_github:hover {
-    transform: scale(1.5);
+transform: scale(1.5);
 }
-.habilidades-front{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    padding-top: 10px;
-    max-width: 80%;
-    min-width: 320px;
-    min-height: 50px;
-    margin: auto;
-    background-color: #ffffff;
+
+.habilidades-front {
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+padding-top: 10px;
+max-width: 80%;
+min-width: 320px;
+min-height: 50px;
+margin: auto;
+background-color: #ffffff;
 }
-.habilidades-front h1{
-    text-align: center;
-    color: #fa8072;
- 
+
+.habilidades-front h1 {
+text-align: center;
+color: #fa8072;
+
 }
-.tecnologias{
-    max-width: 80%;
-    min-width: 320px;
-    min-height: 200px;
-    margin: auto;
-    background-color: #eef0eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+
+.tecnologias {
+max-width: 80%;
+min-width: 320px;
+min-height: 200px;
+margin: auto;
+background-color: #eef0eb;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 }
+
 .img-html,
 .img-css,
 .img-angula-js,
@@ -208,12 +235,13 @@ body{
 .img-vue-js,
 .img-jquery,
 .img-bootstrap,
-.img-selvt{
-    width: 68px;
-    height: 68px;
-    margin: 10px;
-    transition: transform .5s;
+.img-selvt {
+width: 68px;
+height: 68px;
+margin: 10px;
+transition: transform .5s;
 }
+
 .img-html:hover,
 .img-css:hover,
 .img-angula-js:hover,
@@ -222,32 +250,34 @@ body{
 .img-vue-js:hover,
 .img-jquery:hover,
 .img-bootstrap:hover,
-.img-selvt:hover{
-    transform:scale(1.2);
-}
-.tecnologias-front-end{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;   
-    
+.img-selvt:hover {
+transform: scale(1.2);
 }
 
-.img-tecnologias{
-    margin-left: 10px;
-    margin-top: 25px;
+.tecnologias-front-end {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
 }
-.footer{
-    max-width: 80%;
-    min-width: 320px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.814);
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    color: white;
+
+.img-tecnologias {
+margin-left: 10px;
+margin-top: 25px;
+}
+
+.footer {
+max-width: 80%;
+min-width: 320px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70px;
+margin: auto;
+background-color: rgba(0, 0, 0, 0.814);
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+color: white;
 }
