@@ -191,7 +191,7 @@ body {
 
 
 /*SEÇÃO  DO CONTAINER MAIN*/
-.main {
+#main {
     background-color: #EFEFEF;
     max-width: 100%;
     min-width: 320px;
@@ -259,6 +259,7 @@ body {
     box-shadow: 5px 5px 5px rgba(62, 62, 62, 0.414);
     border-radius: 30% 10px 30% 10px;
     border: 1px solid #fff;
+    padding: 5px;
 }
 
 .developer-container01 img,
@@ -267,7 +268,9 @@ body {
 }
 
 .developer-container01 img:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
+    box-shadow: none;
+    
 }
 
 .mobile-container02 img,
