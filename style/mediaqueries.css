@@ -67,6 +67,7 @@
     .content-nav-bar{
         margin-right: 0px;
         width: 100%;
+        margin-top: 9px;
     }
     .content-nav-bar h2{
         font-size: 1.6em;
@@ -123,7 +124,7 @@
         padding: 15px;
     
  }
- .developer-container01 img,
+.developer-container01 img,
 .mobile-container02 img,
 .desktops-container03 img,
 .completo-container04  img,img{
