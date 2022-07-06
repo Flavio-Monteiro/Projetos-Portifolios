@@ -72,10 +72,10 @@ background-color: #31212C;
 }
 #text-porti{
     margin-right: 10px;
-    color: #fa4848;
+    color: #ececec;
 }
 .content-nav-bar2{
-background-image: linear-gradient(to right,#1E202C,#FF3165,#1E202C);
+background-color: #20202C;
 min-height: 50px;
 display: flex;
 justify-content: center;
@@ -182,7 +182,7 @@ min-height: 100vh;
 background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 background-image: url("../images/backgrounds/fullimg02.jpg");
 background-size: cover;
-background-position: center center;
+background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 display: flex;
@@ -275,13 +275,14 @@ transform: scale(0.9);
 .informs-rodape {
 display: flex;
 justify-content: center;
-align-items: flex-end;
+align-items: center;
 flex-wrap: wrap;
-background-image: linear-gradient(to right,#1E202C 0.10%,#FF3165 ,#1E202C);
+background-color: #20202C;
 max-width: 100%;
 min-width: 320px;
 margin: auto;
 min-height: 190px;
+
 }
 .infor-rodape {
 min-width: 260px;
@@ -290,7 +291,6 @@ padding: 0px;
 margin: 5px;
 margin-top: 10px;
 text-align: center;
-border: dashed white;
 }
 .infor-rodape h3 {
 font-size: 1.2em;
@@ -299,6 +299,7 @@ color: #e6e6e6;
 }
 .infor-rodape ul {
 padding: 0px;
+min-height: 150px;
 }
 
 .infor-rodape li {
@@ -331,8 +332,8 @@ justify-content: center;
 align-items: center;
 height: 60px;
 margin: auto;
-background-color: #1E202C;
+background-color: #201316;;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
-color: rgb(11, 11, 11);
+color: #ffffff;
 }
