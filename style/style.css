@@ -54,7 +54,7 @@ background-color: red;
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-image: linear-gradient(to right, #dddddd 0%, #b5b6b8 100%);
+background-color: #31212C;
 }
 .box-logo-fm{
     display: flex;
@@ -63,19 +63,19 @@ background-image: linear-gradient(to right, #dddddd 0%, #b5b6b8 100%);
     flex-direction: column;
     min-width: 80px;
     min-height: 60px;
-    background-color: #FF6363;
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
     text-align: center;
     color: white;
+    background-image: linear-gradient(to right,#31212C,#FF3165);
 }
 #text-porti{
     margin-right: 10px;
     color: #fa4848;
 }
 .content-nav-bar2{
-background-color: #005bea;
+background-image: linear-gradient(to right,#1E202C,#FF3165,#1E202C);
 min-height: 50px;
 display: flex;
 justify-content: center;
@@ -93,7 +93,7 @@ list-style-type: none;
 font-size: 1.5em;
 color: #f0f0f0;
 margin-top: 30px;
-border: 1px solid white;
+border: 1px solid rgb(248, 138, 138);
 border-radius: 20px;
 height: 35px;
 width: 125px;
@@ -101,6 +101,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 15px;
+background-color: #31212cbc;
 
 }
 
@@ -145,7 +146,6 @@ transform: scale(1.5);
 display: flex;
 justify-content: center;
 text-align: center;
-border: dashed rgb(255, 255, 255);
 margin-right: 30px;
 }
 
@@ -167,8 +167,6 @@ margin: auto;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-   
-    
 }
 .sub-content-main02{
     display: flex;
@@ -182,6 +180,11 @@ margin: auto;
 width: 100%;
 min-height: 100vh;
 background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+background-image: url("../images/backgrounds/fullimg02.jpg");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -217,7 +220,7 @@ text-decoration: underline;
 }
 .developer-container01 h1,h2,.mobile-container02 h1,h2,.desktops-container03 h1,h2,.completo-container04 h1,h2,.photos-container05 h1,h2 {
     margin-top: 25px;
-color: #112B3C;
+color: #ffffff;
 }
 .developer-container01 img,
 .mobile-container02 img,
@@ -226,8 +229,8 @@ color: #112B3C;
 .photos-container05 img {
 box-shadow: 5px 5px 5px rgba(62, 62, 62, 0.414);
 border-radius: 30% 10px 30% 10px;
-background-color: rgb(255, 225, 225);
-border: 1px solid #fff;
+background-color: rgba(255, 225, 225, 0.189);
+border: 1px solid rgba(255, 255, 255, 0.482);
 padding: 5px;
 }
 
@@ -274,7 +277,7 @@ display: flex;
 justify-content: center;
 align-items: flex-end;
 flex-wrap: wrap;
-background-color: #0f5fdf;
+background-image: linear-gradient(to right,#1E202C 0.10%,#FF3165 ,#1E202C);
 max-width: 100%;
 min-width: 320px;
 margin: auto;
@@ -284,10 +287,10 @@ min-height: 190px;
 min-width: 260px;
 min-height: 120px;
 padding: 0px;
-margin: 0px;
+margin: 5px;
 margin-top: 10px;
 text-align: center;
-border: 2px dashed red;
+border: dashed white;
 }
 .infor-rodape h3 {
 font-size: 1.2em;
@@ -315,7 +318,7 @@ text-decoration: none;
 display: flex;
 justify-content: center;
 align-items: center;
-background-image: linear-gradient(to right, #dddddd 0%, #b5b6b8 100%);
+background-color: #31212C;
 max-width: 100%;
 }
 
@@ -328,7 +331,7 @@ justify-content: center;
 align-items: center;
 height: 60px;
 margin: auto;
-background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
+background-color: #1E202C;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
 color: rgb(11, 11, 11);
