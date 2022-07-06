@@ -51,62 +51,33 @@ body {
 }
 
 /*SEÇÃO  DO CONTAINER NAVEGAÇÃO*/
-
-#nav-bar {
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-    max-width: 100%;
-
-}
-.content-nav-bar{
-    margin-right: 30px;
+#container-header{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
+}
+#container-header h1{
+    padding-right: 10px;
+}
+.content-nav-bar2{
+    background-color: #005bea;
+    min-height: 50px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo-flavio h2{
-    color: #F4722B;
-    font-size: 3em;
-    text-shadow: 2px 2px 2px rgba(101, 101, 101, 0.821);
-}
-
-#nav-bar a {
-    text-decoration: none;
-    color: antiquewhite;
-    color: rgb(255, 255, 255);
-    font-size: 1.3em;
-    margin: 10px;
-   
-
-}
-.buttons-container{
-    margin-top: 10px;
-    width: 100%;
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-    border: 0px ;
-    border-radius: 50px;
+.content-nav-bar2 ul{
+    display: flex;
+    
     
 }
-.buttons{
-    pad: px;
-    margin: 0px 6px ;
-    width: 110px;
-    min-height: 35px;
-    border: 1px solid #78938A;
-    border-radius: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
+.content-nav-bar2 ul>li{
+    margin-left: 10px;
+    list-style-type: none;
     font-size: 1.5em;
-    background-color: #525E75;
-    color: #ffffff;
-    transition: background-color .5s;
-   
-}
-.buttons:hover{
-    background-color: #D18CE0;
-    color: #5D534A;
-    
-
+    color: #f0f0f0;
+    margin-top: 30px;
 }
 
 
@@ -115,7 +86,6 @@ body {
     min-width: 100%;
    
 }
-
 .content_btn_social-medias {
     max-width: 50%;
     margin: auto;
@@ -147,38 +117,6 @@ body {
     transform: scale(1.5);
 }
 
-.container-navbar {
-    min-width: 100%;
-    min-height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.content-nav-bar h2 {
-    font-size: 1em;
-}
-
-.logo-flavio {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px 20px;
-}
-
-
-
-.logo-flavio h1 {
-    color: wheat;
-    text-align: center;
-    font-size: 1.4em;
-    padding-top: 10px;
-}
-
 .links {
     display: flex;
     justify-content: center;
@@ -186,8 +124,6 @@ body {
     border: dashed rgb(255, 255, 255);
     margin-right: 30px;
 }
-
-
 
 /*SEÇÃO  DO CONTAINER MAIN*/
 #main {
@@ -250,6 +186,7 @@ body {
 .photos-container05 img {
     box-shadow: 5px 5px 5px rgba(62, 62, 62, 0.414);
     border-radius: 30% 10px 30% 10px;
+    background-color: rgb(255, 225, 225);
     border: 1px solid #fff;
     padding: 5px;
 }
@@ -267,28 +204,28 @@ body {
     transition: transform .5s;
 }
 .mobile-container02 img:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .desktops-container03 img,
 .de {
     transition: transform .5s;
 }
 .desktops-container03 img:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .completo-container04 img,
 .de {
     transition: transform .5s;
 }
 .completo-container04 img:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .photos-container05 img,
 .de {
     transition: transform .5s;
 }
 .photos-container05 img:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 /*SEÇÃO  DO CONTAINER INFORMAÇÕES DO RODAPÉ*/
@@ -297,7 +234,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
-    background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
+    background-color: #0f5fdf;
     max-width: 100%;
     min-width: 320px;
     margin: auto;

@@ -1,17 +1,9 @@
 @charset "UTF-8";
 @media (max-width: 1456px){
-    #nav-bar{
-        font-size: .8em;
-    }
     
 }
 @media (max-width: 1200px){
- 
-    #nav-bar{
-        font-size: .5em;
-        min-width: 320px;
-    }
-   
+
     .infor-rodape h3{
         text-align: center;
     }
@@ -36,51 +28,10 @@
    
     
 }
-.button {
-    font-size: 1.7em;
-    
-
-}.logo-flavio h2{
-    margin-top: 10px;
-    font-size: 4.5em;
-    text-shadow: none;
-  
-}
 .direitos-de-imagem{
     text-align: center;
 }
 @media (max-width: 666px){
-    .container-navbar{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .buttons-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-
-    }
-    .buttons{
-        margin: 7px;
-    }
-    .content-nav-bar{
-        margin-right: 0px;
-        width: 100%;
-        margin-top: 9px;
-    }
-    .content-nav-bar h2{
-        font-size: 1.6em;
-    }
-    .logo-flavio h1{
-        font-size: 3em;
-    }
-    .logo-flavio{
-        margin: 0 auto;
-        padding: 0px;
-        
-    }
     .iforms-rodape{
         margin-bottom: 0 auto;
     }
@@ -92,9 +43,6 @@
     .container-main{
         margin-bottom: 10px;
         margin-top: 5px;
-    }.logo-flavio img{
-        width: 120px;
-        height: 120px;
     }
     .developer-container01{
         width: 100%;
