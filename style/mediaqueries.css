@@ -1,106 +1,33 @@
-@charset "UTF-8";
-@media (max-width: 1456px){
-    
-}
-@media (max-width: 1200px){
+@media (max-width:1197px){
 
-    .infor-rodape h3{
-        text-align: center;
-    }
+
 .developer-container01 img,
 .mobile-container02 img,
 .desktops-container03 img,
-.completo-container04  img,img{
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70%;
-    height: 70%;
-    padding: 5px;
+.completo-container04 img{
+    width: 150px;
+    height: 150px;
 }
-
 .developer-container01,
 .mobile-container02,
 .desktops-container03,
 .completo-container04 {
-    margin-left: 0 auto;
-   
+    min-width: 170px;
+    min-height: 170px;
     
 }
-.direitos-de-imagem{
-    text-align: center;
+
+
 }
-@media (max-width: 666px){
-    .iforms-rodape{
-        margin-bottom: 0 auto;
-    }
-    .infor-rodape{
-        margin: 5px auto;
-        width: 100%;
-        text-align: center;
-    }
+@media (max-width:714px){
     .container-main{
-        margin-bottom: 10px;
-        margin-top: 5px;
+        flex-direction:column ;
     }
-    .developer-container01{
-        width: 100%;
-
-    }
-    .mobile-container02{
-        width: 100%;
-       
-        padding: 15px;
-        
-    }
-     .desktops-container03{
-        width: 100%;
-        
-        padding: 15px;
-    }
-     .completo-container04{
-        width: 100%;
-       
-        padding: 15px;
-    }
-    .photos-container05{
-        width: 100%;
-        background-color: #a8cc8e;
-        border-radius: 0px 0px 20px 20px;
-        padding: 15px;
-    
- }
-.developer-container01 img,
-.mobile-container02 img,
-.desktops-container03 img,
-.completo-container04  img,img{
-   margin: 15;
-   padding: 8px;
-   width: 50%;
-   height: 50%;
-}
-.container-main{
-   
-}
-.developer-container01,
-.mobile-container02,
-.desktops-container03,
-.completo-container04,
-.photos-container05{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 20vh;
-    width: 100vw;
-}
-.btn_facebook,
-.btn_instagram,
-.btn_youtube,
-.btn_linkedin,
-.btn_github{
-    margin: 0 auto;
-}
-
-
+    .listas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
 }
