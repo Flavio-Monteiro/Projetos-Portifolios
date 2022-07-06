@@ -64,6 +64,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+.logo-flavio h2{
+    color: #F4722B;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgba(101, 101, 101, 0.821);
+}
 
 #nav-bar a {
     text-decoration: none;
@@ -127,7 +132,7 @@ body {
 .btn_linkedin,
 .btn_github {
     transition: transform .5s;
-    border-radius: 50%;
+    border-radius: 30%;
     margin-right: 10px;
     width: 38px;
     height: 38px;
@@ -329,8 +334,8 @@ body {
     text-decoration: none;
 }
 .content_btn_social-medias{
-    background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
-   min-width: 100%;
+    background-image: linear-gradient(to right, #dddddd 0%, #b5b6b8 100%);
+   max-width: 100%;
 }
     
 

@@ -40,9 +40,10 @@
     font-size: 1.7em;
     
 
-}.logo-flavio h1{
+}.logo-flavio h2{
     margin-top: 10px;
-    font-size: 2.5em;
+    font-size: 4.5em;
+    text-shadow: none;
   
 }
 .direitos-de-imagem{
