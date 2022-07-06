@@ -133,7 +133,7 @@ body {
 .btn_github {
     transition: transform .5s;
     border-radius: 30%;
-    margin-right: 10px;
+    margin: 10px;
     width: 38px;
     height: 38px;
 }
@@ -334,6 +334,9 @@ body {
     text-decoration: none;
 }
 .content_btn_social-medias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(to right, #dddddd 0%, #b5b6b8 100%);
    max-width: 100%;
 }

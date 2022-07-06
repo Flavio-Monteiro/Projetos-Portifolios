@@ -98,24 +98,22 @@
     }
     .developer-container01{
         width: 100%;
-        background-color: #76BA99;
-       
-        
+
     }
     .mobile-container02{
         width: 100%;
-        background-color: #ADCF9F;
+       
         padding: 15px;
         
     }
      .desktops-container03{
         width: 100%;
-        background-color: #CED89E;
+        
         padding: 15px;
     }
      .completo-container04{
         width: 100%;
-        background-color: #FFDCAE;
+       
         padding: 15px;
     }
     .photos-container05{
@@ -148,4 +146,13 @@
     min-height: 20vh;
     width: 100vw;
 }
+.btn_facebook,
+.btn_instagram,
+.btn_youtube,
+.btn_linkedin,
+.btn_github{
+    margin: 0 auto;
+}
+
+
 }
