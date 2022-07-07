@@ -52,7 +52,7 @@ background-color: red;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #FAF5E4;
+background-color: #293241;
 }
 .box-logo-fm{
 display: flex;
@@ -62,19 +62,19 @@ flex-direction: column;
 min-width: 80px;
 min-height: 60px;
 border-radius: 10px;
-margin: 5px;
+margin-top: 20px;
 padding: 5px;
 text-align: center;
 color: white;
 background-image: linear-gradient(to right,#31212C,#FF3165);
 }
 #text-porti{
-margin-right: 10px;
+margin: 20px 0px 0px 10px ;
 color: #eb5e28;
 }
 
 .content-nav-bar2{
-background-color: #252422;
+background-color: #293241;
 min-height: 50px;
 display: flex;
 justify-content: center;
@@ -114,7 +114,7 @@ margin: auto;
 .container-main {
 width: 100%;
 min-height: 100vh;
-background-color: #252422;
+background-color: #ee6c4d;
 
 background-size: cover;
 background-position: center;
@@ -168,55 +168,25 @@ text-decoration: underline;
 }
 .developer-container01 h1,h2,.mobile-container02 h1,h2,.desktops-container03 h1,h2,.completo-container04 h1,h2,.photos-container05 h1,h2 {
 margin-top: 25px;
-color: #ffffff;
+color: #e0fbfc;
 }
 .developer-container01 img,
 .mobile-container02 img,
 .desktops-container03 img,
-.completo-container04 img,
-.photos-container05 img {
+.completo-container04 img{
 box-shadow: 5px 5px 5px rgba(62, 62, 62, 0.414);
 border-radius: 30% 10px 30% 10px;
-background-color: rgba(255, 225, 225, 0.189);
+background-color:#c4e1f2;
 border: 1px solid rgba(255, 255, 255, 0.482);
 padding: 5px;
-}
-
-.developer-container01 img,
-.de {
 transition: transform .5s;
 }
-.developer-container01 img:hover {
+.developer-container01 img:hover, 
+.mobile-container02 img:hover,
+.desktops-container03 img:hover,
+.completo-container04 img:hover{ 
 transform: scale(0.9);
 box-shadow: none;
-}
-.mobile-container02 img,
-.de {
-transition: transform .5s;
-}
-.mobile-container02 img:hover {
-transform: scale(0.9);
-}
-.desktops-container03 img,
-.de {
-transition: transform .5s;
-}
-.desktops-container03 img:hover {
-transform: scale(0.9);
-}
-.completo-container04 img,
-.de {
-transition: transform .5s;
-}
-.completo-container04 img:hover {
-transform: scale(0.9);
-}
-.photos-container05 img,
-.de {
-transition: transform .5s;
-}
-.photos-container05 img:hover {
-transform: scale(0.9);
 }
 
 /*SEÇÃO  DO CONTAINER INFORMAÇÕES DO RODAPÉ*/
@@ -225,7 +195,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-background-color: #403d39;
+background-color: #293241;
 max-width: 100%;
 min-width: 320px;
 margin: auto;
@@ -266,7 +236,7 @@ text-decoration: none;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #403d39;
+background-color: #293241;
 max-width: 100%;
 }
 .btn_facebook,
@@ -298,7 +268,7 @@ justify-content: center;
 align-items: center;
 height: 60px;
 margin: auto;
-background-color: #ccc5b9;;
+background-color: #98c1d9;;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
 color: #000000;
