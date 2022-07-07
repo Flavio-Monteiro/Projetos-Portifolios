@@ -27,7 +27,10 @@ min-height: 170px;
 .content-nav-bar2 ul>li{
     font-size: 1.3em;
     
-} 
-
+}#container-header{
+    flex-direction: column;
+}
 
 }
+
+
