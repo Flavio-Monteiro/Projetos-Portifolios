@@ -23,12 +23,10 @@ min-height: 170px;
 .container-main{
     flex-direction:column ;
 }
-.listas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+.content-nav-bar2 ul>li{
+    font-size: 1.3em;
+    
 } 
 
 
