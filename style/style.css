@@ -72,6 +72,7 @@ background-image: linear-gradient(to right,#31212C,#FF3165);
 margin: 20px 0px 0px 10px ;
 color: #eeeeee;
 font-weight: 450;
+border-bottom: 1px solid white;
 
 }
 
@@ -176,7 +177,7 @@ color: #e0fbfc;
 .mobile-container02 img,
 .desktops-container03 img,
 .completo-container04 img{
-box-shadow: 5px 5px 5px rgba(62, 62, 62, 0.414);
+box-shadow: 5px 5px 5px 5px rgba(34, 33, 33, 0.548);
 border-radius: 30% 10px 30% 10px;
 background-color:#c4e1f2;
 border: 1px solid rgba(255, 255, 255, 0.482);
