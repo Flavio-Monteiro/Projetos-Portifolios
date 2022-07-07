@@ -70,7 +70,9 @@ background-image: linear-gradient(to right,#31212C,#FF3165);
 }
 #text-porti{
 margin: 20px 0px 0px 10px ;
-color: #eb5e28;
+color: #eeeeee;
+font-weight: 450;
+
 }
 
 .content-nav-bar2{
