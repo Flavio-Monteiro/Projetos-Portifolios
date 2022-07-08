@@ -52,7 +52,7 @@ background-color: #cccccc;
 display: flex;
 justify-content: center;
 align-items: center;
-background: linear-gradient(to top right,#0d294d,#005792) fixed;
+background-image: linear-gradient( 99deg,  rgb(144, 26, 102) 10.6%, rgba(28,28,28,1) 118% );
 }
 .box-logo-fm{
 display: flex;
@@ -87,11 +87,13 @@ text-align: center;
 }
 
 .content-nav-bar2{
-background: linear-gradient(to top right,#00204A,#005792,#00BBF0) fixed;
+    background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+    border-top: 1px solid rgba(255, 239, 213, 0.629);
 min-height: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
+
 
 }
 .content-nav-bar2 ul{
@@ -128,7 +130,7 @@ margin: auto;
 .container-main {
 width: 100%;
 min-height: 100vh;
-background: linear-gradient(to top right,#00204A,#005792,#00BBF0) fixed;
+background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
 display: flex;
 justify-content: center;
 align-items: center;
@@ -204,7 +206,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-background: linear-gradient(90deg,#005792,#0d294d) fixed;
+background-image: linear-gradient( 99deg,  rgb(106, 22, 77) 10.6%, rgb(51, 51, 51) 118% );
+border-top: 1px solid rgba(255, 218, 185, 0.357);
 max-width: 100%;
 min-width: 320px;
 margin: auto;
@@ -245,7 +248,7 @@ text-decoration: none;
 display: flex;
 justify-content: center;
 align-items: center;
-background: linear-gradient(90deg,rgb(16, 48, 90),#005792) fixed;
+background-image: linear-gradient( 99deg,  rgb(106, 22, 77) 10.6%, rgb(51, 51, 51) 118% );
 max-width: 100%;
 }
 .btn_facebook,
