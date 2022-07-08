@@ -52,7 +52,7 @@ background-color: red;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #293241;
+background: linear-gradient(to top right,#0d294d,#005792) fixed;
 }
 .box-logo-fm{
 display: flex;
@@ -61,24 +61,33 @@ align-items: center;
 flex-direction: column;
 min-width: 80px;
 min-height: 60px;
-border-radius: 10px;
+border-radius: 20px;
 margin-top: 20px;
-padding: 5px;
+padding: 10px;
 text-align: center;
 color: white;
-background-image: linear-gradient(to right,#31212C,#FF3165);
+border: 1px solid rgba(133, 159, 198, 0.813);
+box-shadow: 3px 3px 3px 3px rgba(68, 67, 67, 0.801);
+margin: 15px;
+
+
+}
+.box-logo-fm h1{
+    font-size: 2.5em;
 
 }
 #text-porti{
-margin: 20px 0px 0px 10px ;
+
 color: #eeeeee;
 font-weight: 450;
-border-bottom: 1px solid white;
+font-size: 2em;
+text-align: center;
+
 
 }
 
 .content-nav-bar2{
-background-color: #293241;
+background: linear-gradient(to top right,#00204A,#005792,#00BBF0) fixed;
 min-height: 50px;
 display: flex;
 justify-content: center;
@@ -118,8 +127,7 @@ margin: auto;
 .container-main {
 width: 100%;
 min-height: 100vh;
-background-color: #ee6c4d;
-
+background: linear-gradient(to top right,#00204A,#005792,#00BBF0) fixed;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -178,7 +186,7 @@ color: #e0fbfc;
 .mobile-container02 img,
 .desktops-container03 img,
 .completo-container04 img{
-box-shadow: 5px 5px 5px 5px rgba(34, 33, 33, 0.548);
+box-shadow: 9px 6px 8px  rgba(49, 48, 48, 0.443);
 border-radius: 30% 10px 30% 10px;
 background-color:#c4e1f2;
 border: 1px solid rgba(255, 255, 255, 0.482);
@@ -199,7 +207,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-background-color: #293241;
+background: linear-gradient(90deg,#005792,#0d294d) fixed;
 max-width: 100%;
 min-width: 320px;
 margin: auto;
@@ -240,7 +248,7 @@ text-decoration: none;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #293241;
+background: linear-gradient(90deg,rgb(16, 48, 90),#005792) fixed;
 max-width: 100%;
 }
 .btn_facebook,
@@ -270,9 +278,9 @@ min-width: 320px;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 60px;
+height: 50px;
 margin: auto;
-background-color: #98c1d9;;
+background-color: #e4ebef;;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
 color: #000000;
