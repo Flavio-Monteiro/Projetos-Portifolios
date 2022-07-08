@@ -44,7 +44,7 @@ body {
 min-height: 100%;
 min-width: 100%;
 font-family: 'Josefin Sans', sans-serif;
-background-color: red;
+background-color: #cccccc;
 }
 
 /*SEÇÃO  DO CONTAINER NAVEGAÇÃO*/
@@ -108,8 +108,9 @@ justify-content: center;
 align-items: center;
 margin: 15px;
 
-}.listas{
+}.listas li{
     margin-top: 30px;
+    
 }
 
 /*SEÇÃO  DO CONTAINER MAIN*/
@@ -176,7 +177,7 @@ text-decoration: underline;
 }
 .developer-container01 h1,h2,.mobile-container02 h1,h2,.desktops-container03 h1,h2,.completo-container04 h1,h2,.photos-container05 h1,h2 {
 margin-top: 25px;
-color: #e0fbfc;
+color: #ddf2f3;
 }
 .developer-container01 img,
 .mobile-container02 img,

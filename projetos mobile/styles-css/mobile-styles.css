@@ -48,12 +48,15 @@ body{
     min-width: 320px;
     min-height: 100px;
     margin: auto;
-    background-image: linear-gradient(60deg, #29323c 10%, #485563 0%, #29323c 0%);
+    background: linear-gradient(to top right,#0d294d,#005792) fixed;
  }
 #cabecalho h1{
     font-size: 3.5em;
     font-weight: bold;
-    color: #ffed29;
+    color: #1CB71C;
+}
+#projects{
+    color: #A8A9BA;
 }
 #container-main {
     background: linear-gradient(to top right,#00204A,#005792,#00BBF0) fixed;
@@ -73,7 +76,7 @@ body{
     max-width: 90%;
     min-width: 320px;
     margin: auto;
-    background-color: #181817;
+    background: linear-gradient(90deg,rgb(16, 48, 90),#005792) fixed;
 
 }#navegacao h2{
     color: #f5deb3;
@@ -117,14 +120,14 @@ body{
 .ios h1{
     text-align: center;
     margin-top: 20px;
-    color: wheat;
+    color: #A8A9BA;
     font-size: 1.7em;
     margin-left: 0px;
     
 }.android h1{
     text-align: center;
     margin-top: 20px;
-    color: wheat;
+    color: #1CB71C;
     font-size: 1.7em;
 }
 .footer {
@@ -135,7 +138,7 @@ body{
     align-items: center;
     height: 80px;
     margin: auto;
-    background-color: rgba(23, 23, 23, 0.814);
+    background: linear-gradient(90deg,rgb(16, 48, 90),#074f80) fixed;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: white;
