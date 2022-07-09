@@ -49,6 +49,7 @@ background-color: #cccccc;
 
 /*SEÇÃO  DO CONTAINER NAVEGAÇÃO*/
 #container-header{
+min-width: 420px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -87,9 +88,10 @@ text-align: center;
 }
 
 .content-nav-bar2{
-    background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
-    border-top: 1px solid rgba(255, 239, 213, 0.629);
+background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+border-top: 1px solid rgba(255, 239, 213, 0.629);
 min-height: 50px;
+min-width: 420px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -112,39 +114,91 @@ margin: 15px;
 
 }.listas li{
     margin-top: 30px;
-    
 }
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu-content01{
+    border: 2px solid rgb(57, 186, 46);
+    margin-bottom: 8px;
+    width: 26px;
+
+}
+.menu-content02{
+    border: 2px solid rgb(57, 186, 46);
+    margin-bottom: 8px;
+    width: 26px;
+}
+.menu-content03{
+    border: 2px solid rgb(62, 206, 79);
+    width: 26px;
+}
+
 
 /*SEÇÃO  DO CONTAINER MAIN*/
 #main{
-    width: 100vw;
-    height: 100vh;
+    min-width: 420px;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+    
+    
 }
-.desenvolvedor, .mobile, .desktops,.completos{
-    min-width: 350px;
-    height: 180px;
-    border: 1px solid red;
+.desenvolvedor,
+.mobile,
+.desktops,
+.completos{
+    border-radius: 19px;
     margin: 10px;
-    border-radius: 20px;
-   
+    min-width: 380px;
+    height: 180px;
+    background-color: #edf2f4;
+    box-shadow: 3px 3px 3px 3px rgba(19, 19, 19, 0.602);
+    transition: transform .7s;
 }
-
+.desenvolvedor:hover,
+.mobile:hover,
+.desktops:hover,
+.completos:hover{
+    transform: scale(.9);
+    box-shadow: none;
+}
+.desenvolvedor img,
+.mobile img,
+.desktops img,
+.completos img{
+    width: 48px;
+    height: 48px;
+    padding: 10px 0px 0px 10px;
+}
+.content-dev{
+    
+    min-width: 80%;
+    min-height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+}
 /*SEÇÃO  DO CONTAINER INFORMAÇÕES DO RODAPÉ*/
 .informs-rodape {
 display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-background-image: linear-gradient( 99deg,  rgb(106, 22, 77) 10.6%, rgb(51, 51, 51) 118% );
+background-color: #edf2f4;
 border-top: 1px solid rgba(255, 218, 185, 0.357);
 max-width: 100%;
 min-width: 320px;
 margin: auto;
 min-height: 190px;
+min-width: 420px;
 }
 .infor-rodape {
 min-width: 260px;
@@ -157,23 +211,23 @@ text-align: center;
 .infor-rodape h3 {
 font-size: 1.2em;
 font-family: 'Roboto', sans-serif;
-color: #e6e6e6;
+color: #1b1b1b;
 }
 .infor-rodape ul {
 padding: 0px;
 min-height: 150px;
 }
-.infor-rodape li {
+.infor-rodape li  {
 list-style-type: none;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
 font-size: .9em;
-color: #cccccc;
+color: #171616;
 padding: 0px;
 margin: 0px;
 }
 .direitos-de-imagem li>a{
-color: #e1e1e1;
+color: #151414;
 text-decoration: none;
 }
 
@@ -181,7 +235,8 @@ text-decoration: none;
 display: flex;
 justify-content: center;
 align-items: center;
-background-image: linear-gradient( 99deg,  rgb(106, 22, 77) 10.6%, rgb(51, 51, 51) 118% );
+background-color: #edf2f4;
+min-width: 420px;
 max-width: 100%;
 }
 .btn_facebook,
@@ -207,7 +262,7 @@ transform: scale(1.5);
 
 .footer {
 max-width: 100%;
-min-width: 320px;
+min-width: 420px;
 display: flex;
 justify-content: center;
 align-items: center;
