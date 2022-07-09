@@ -116,95 +116,21 @@ margin: 15px;
 }
 
 /*SEÇÃO  DO CONTAINER MAIN*/
-#main {
-background-color: #2C3333;
-max-width: 100%;
-min-width: 320px;
-min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-margin: auto;
+#main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.container-main {
-width: 100%;
-min-height: 100vh;
-background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-}
-.sub-content-main01{
-
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-border: dashed green;
-}
-.sub-content-main02{
-
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-border: dashed green;
-}
-/*SEÇÕES DAS IMGENS  DO CONTAINER MAIN*/
-.developer-container01,
-.mobile-container02,
-.desktops-container03,
-.completo-container04,
-.photos-container05 {
-margin: 10px;
-text-align: center;
-color: whitesmoke;
-padding: 0px 5px 10px 5px;
-border: dashed white;
-width: 500px;
-
-}
-.developer-container01 a,
-.mobile-container02 a,
-.desktops-container03 a,
-.completo-container04 a,
-.photos-container05 a {
-text-decoration: none;
-color: wheat;
-}
-.developer-container01 a:hover,
-.mobile-container02 a:hover,
-.desktops-container03 a:hover,
-.completo-container04 a:hover,
-.photos-container05 a:hover {
-text-decoration: underline;
-}
-.developer-container01 h1,h2,.mobile-container02 h1,h2,.desktops-container03 h1,h2,.completo-container04 h1,h2,.photos-container05 h1,h2 {
-margin-top: 25px;
-color: #ddf2f3;
-}
-.developer-container01 img,
-.mobile-container02 img,
-.desktops-container03 img,
-.completo-container04 img{
-width: 60%;
-height: 60%;
-box-shadow: 9px 6px 8px  rgba(49, 48, 48, 0.443);
-border-radius:  10px;
-background-color:#c4e1f2;
-border: 2px dashed rgba(80, 2, 237, 0.482);
-padding: 5px;
-transition: transform .5s;
-
-}
-.developer-container01 img:hover, 
-.mobile-container02 img:hover,
-.desktops-container03 img:hover,
-.completo-container04 img:hover{ 
-transform: scale(0.9);
-box-shadow: none;
+.desenvolvedor, .mobile, .desktops,.completos{
+    min-width: 350px;
+    height: 180px;
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 20px;
+   
 }
 
 /*SEÇÃO  DO CONTAINER INFORMAÇÕES DO RODAPÉ*/
