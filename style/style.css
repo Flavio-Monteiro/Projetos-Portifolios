@@ -78,14 +78,16 @@ color: white;
     margin-top: 20px;
     font-size: 3.5em;
     color: #FFFFFF;
-background: #232323;
-text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+
+    text-shadow: 3px 5px 2px #474747;
 }
+
 #text-porti{
     margin-top: 20px;
     color: #FFFFFF;
-background: #232323;
-text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+    text-shadow: 3px 5px 2px #474747;
 
 
 }
