@@ -221,6 +221,7 @@ box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
     
 }#progresso h1{
     color: rgb(23, 23, 23);
+    text-align: center;
 }
 .content-mobile,
 .content-desktops,
