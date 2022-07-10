@@ -300,13 +300,15 @@ box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
     margin: 20px;
     font-weight: normal;
 }
-.container-skills{
+.container-skills img{
     
 }
 .pictures-skills{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+  
 }
 
 
