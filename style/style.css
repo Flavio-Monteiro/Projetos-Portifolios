@@ -133,12 +133,8 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
 box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
 }
 
-/*SEÇÃO DO CONTAINER SOBRE*/
-#navgator-02{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}.list-navgator02{
+/*SEÇÃO DO CONTAINER SOBRE*/    
+.list-navgator02{
     display: flex;
     
 }.list-navgator02 li{
@@ -154,7 +150,7 @@ box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
     flex-wrap: wrap;
     min-height: 80vh;
     min-width: 420px;    
-    background-color: #e9e4e4;
+    background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(76,21,51,1) 0%, rgba(34,10,37,1) 90% );
 }
 .content-mobile img,
 .content-desktops img,
@@ -217,6 +213,9 @@ box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
 }
 
 #navgator-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 min-width: 420px;
 height: 80px;
 background-color: #270B27;
