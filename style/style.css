@@ -165,8 +165,9 @@ box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 70vh;
-    min-width: 420px;  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);  
+    min-height: 60vh;
+    min-width: 420px; 
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);  
 }.pictures-skills{
     display: flex;
     flex-wrap: wrap;
@@ -178,17 +179,18 @@ box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
     align-items: center;
     border: 2px solid rgba(169, 168, 168, 0.543);
     margin: 15px;
-    min-height: 250px;
-    min-width: 190px;
+    min-height: 150px;
+    min-width: 120px;
     border-radius: 20px;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 9px 11px 12px 9px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 9px 11px 12px 9px rgba(0,0,0,0);
-    transition: transform .5s;
+    transition: transform .9s;
     -moz-transform: translate(0px, -13px);
-    -webkit-transform: translate(0px, -13px);
-    -o-transform: translate(0px, -13px);
-    -ms-transform: translate(0px, -13px);
-    transform: translate(0px, -13px);
+    -moz-transform: skew(0deg, -6deg);
+    -webkit-transform: skew(0deg, -6deg);
+    -o-transform: skew(0deg, -6deg);
+    -ms-transform: skew(0deg, -6deg);
+    transform: skew(0deg, -6deg);
     border: solid rgba(250, 249, 249, 0.649);
 }
 .img-skills >p{
@@ -197,18 +199,26 @@ box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
 }
 .img-skills:hover >p{
     display: block;
-    font-size: 1.5em;
+    
 }
 .img-skills:hover{
     transform: scale(0.9);
     box-shadow: none;
     border: solid rgba(227, 227, 227, 0.513);
    
+}.img-skills>img{
+    width: 78px;
+    height: 78px;
 }
-.content-mobile img,
-.content-desktops img,
-.content-full img{
-   
+#progresso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); 
+    
+}#progresso h1{
+    color: rgb(23, 23, 23);
 }
 .content-mobile,
 .content-desktops,
@@ -315,10 +325,10 @@ box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
 /*SEÇÃO  DO CONTAINER INFORMAÇÕES DO RODAPÉ*/
 .informs-rodape {
 display: flex;
-justify-content: center;
+justify-content: space-evenly;
 align-items: center;
 flex-wrap: wrap;
-background-color: #edf2f4;
+background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
 border-top: 1px solid rgba(255, 218, 185, 0.357);
 max-width: 100%;
 min-width: 320px;
@@ -337,7 +347,8 @@ text-align: center;
 .infor-rodape h3 {
 font-size: 1.2em;
 font-family: 'Roboto', sans-serif;
-color: #1b1b1b;
+color: #9b9494;
+font-weight: bolder;
 }
 .infor-rodape ul {
 padding: 0px;
@@ -348,12 +359,12 @@ list-style-type: none;
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
 font-size: .9em;
-color: #171616;
+color: #b4a6a6;
 padding: 0px;
 margin: 0px;
 }
 .direitos-de-imagem li>a{
-color: #151414;
+color: #a9a5a5;
 text-decoration: none;
 }
 
@@ -361,7 +372,7 @@ text-decoration: none;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #edf2f4;
+background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
 min-width: 420px;
 max-width: 100%;
 }
@@ -394,10 +405,10 @@ justify-content: center;
 align-items: center;
 height: 50px;
 margin: auto;
-background-color: #dadfe3;
+background-image: linear-gradient( 109.6deg,  rgba(204,228,247,1) 11.2%, rgba(237,246,250,1) 100.2% );
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
-color: #000000;
+color: #272727;
 }
 
 
