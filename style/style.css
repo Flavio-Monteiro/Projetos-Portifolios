@@ -89,11 +89,13 @@ margin-top: 30px;
 /*===================================================================*/
 /*SEÇÃO  DO CONTAINER MAIN*/
 .monteiro{
-    color: green;
+    color: #17706E;
     border-bottom: 1px solid white;
     border-right: 1px solid white;
     font-size: 2.1em;
     padding-right: 8px;
+    color: #05de22;
+text-shadow: 0 0 10px #33a928;
 }
 #main{
 margin-top: 20px;
@@ -116,6 +118,8 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     color: rgb(130, 130, 130);
     font-size: 2.4em;
     padding-top: 5px;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
     
 }
 .content-txt-main h2,p{
@@ -129,9 +133,8 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
 }.img-content img{
     border-radius: 25px;
     opacity: 75%;
-    -webkit-box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
-    -moz-box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
-    box-shadow: 14px 13px 18px -4px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 11px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 11px rgba(0,0,0,0);
 }
 /*===================================================================*/
 /*SEÇÃO DO CONTAINER PROJETOS*/ 
