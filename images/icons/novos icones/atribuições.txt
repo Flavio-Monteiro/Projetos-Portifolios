@@ -35,3 +35,20 @@ projetos
 <a href="https://www.flaticon.com/free-icons/project-management" title="project management icons">Project management icons created by manshagraphics - Flaticon</a>
 
 skill03
+
+
+
+skill01
+<a href="https://www.flaticon.com/free-icons/skill" title="skill icons">Skill icons created by Maan Icons - Flaticon</a>
+
+menu0
+
+
+
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Freepik - Flaticon</a>
+
