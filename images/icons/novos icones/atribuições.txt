@@ -1,0 +1,37 @@
+desktop01
+
+<a href="https://www.flaticon.com/br/icones-gratis/computador" title="computador ícones">Computador ícones criados por Freepik - Flaticon</a>
+
+02
+<a href="https://www.flaticon.com/br/icones-gratis/torre-pc" title="torre pc ícones">Torre pc ícones criados por xnimrodx - Flaticon</a>
+
+03
+<a href="https://www.flaticon.com/br/icones-gratis/area-de-trabalho" title="Área de trabalho ícones">Área de trabalho ícones criados por itim2101 - Flaticon</a>
+
+04
+<a href="https://www.flaticon.com/br/icones-gratis/desktop-pc" title="desktop pc ícones">Desktop pc ícones criados por Iconjam - Flaticon</a>
+
+
+
+
+mobile01
+<a href="https://www.flaticon.com/br/icones-gratis/ipad" title="ipad ícones">Ipad ícones criados por Freepik - Flaticon</a>
+
+02
+<a href="https://www.flaticon.com/br/icones-gratis/smartphone" title="smartphone ícones">Smartphone ícones criados por Freepik - Flaticon</a>
+
+
+full01
+<a href="https://www.flaticon.com/br/icones-gratis/smartphone" title="smartphone ícones">Smartphone ícones criados por Freepik - Flaticon</a>
+
+code01
+<a href="https://www.flaticon.com/free-icons/coding" title="coding icons">Coding icons created by Kiranshastry - Flaticon</a>
+
+skill
+<a href="https://www.flaticon.com/free-icons/decision" title="decision icons">Decision icons created by Parzival’ 1997 - Flaticon</a>
+
+
+projetos
+<a href="https://www.flaticon.com/free-icons/project-management" title="project management icons">Project management icons created by manshagraphics - Flaticon</a>
+
+skill03

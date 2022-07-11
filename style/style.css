@@ -295,6 +295,7 @@ box-shadow: 5px -1px 15px 12px rgba(0,0,0,0.36);
 #project h1{
     color: #e1dcdc;
     font-size: 2em;
+    margin-left: 20px;
 }
 #skills{
     margin-top: 20px;
