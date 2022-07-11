@@ -274,10 +274,8 @@ box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
 }
 .img-skills:hover{
     transform: scale(0.9);
-
-    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
-    
+    -webkit-box-shadow: -4px 0px 13px -7px #000000, 5px 0px 13px -7px #000000, 5px 5px 15px 11px rgba(0,0,0,0); 
+    box-shadow: -5px 0px 13px -7px #000000, 7px 0px 13px -7px #000000, 5px 5px 15px 11px rgba(0,0,0,0);
     border: solid rgba(227, 227, 227, 0.513);
    
 }.img-skills>img{
@@ -334,6 +332,14 @@ margin: 0px;
 .direitos-de-imagem li>a{
 color: #a9a5a5;
 text-decoration: none;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tel img{
+    margin-right: 15px;
 }
 
 /*SEÇÃO  BOTÕES SOCIAIS*/
