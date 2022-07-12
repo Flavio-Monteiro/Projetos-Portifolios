@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/mediaqueries.css">
     <title>Página principal</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
 </head>
 
 <nav id="navigator">
@@ -22,10 +26,10 @@
 </nav>
 <main id="main">
     <div class="content-txt-main">
-        <h2>Olá, Sou</h2><br>
+        <h2 class="ola">Olá, Sou</h2><br>
         <h1><span class="flavio">Flávio </span><spam class="monteiro">Monteiro</spam></h1><br>
-        <h2>Desenvolvedor Front-End</h2><br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nam nemo voluptates optio illum iste incidunt alias placeat, explicabo molestias dolorum recusandae facilis aperiam vitae eius commodi tenetur magni veritatis.</p>
+        <h2 class="desenvolvedor">Desenvolvedor Front-End</h2><br>
+        <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nam nemo voluptates optio illum iste incidunt alias placeat, explicabo molestias dolorum recusandae facilis aperiam vitae eius commodi tenetur magni veritatis.</p>
     </div>
     <div class="content-img-main img-content">
         <img src="images/backgrounds/flavio.png" alt="">
@@ -161,8 +165,15 @@
 <footer class="footer">
     <h3>©️ 2022 Flávio Monteiro</h3>
 </footer>
-</body>
 
+<script>
+    ScrollReveal().reveal('.ola', {delay:1500})
+    ScrollReveal().reveal('.bio', {delay:3800})
+    ScrollReveal().reveal('.desenvolvedor', {delay:3800})
+    ScrollReveal().reveal('.flavio', { delay: 3000 })
+    ScrollReveal().reveal('.monteiro', { delay: 3200 })
+</script>
+</body>
 </html>
 
 <!--ESTE PROJETO É UMA CÓPIA->
