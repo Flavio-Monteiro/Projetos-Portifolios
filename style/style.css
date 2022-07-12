@@ -163,19 +163,21 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 80%;
-    min-width: 100%;
+    min-height: 70%;
+    min-width: 420px;
+    border: solid greenyellow;
 
 }
 .container{ 
    
-    min-width: 100%;
-    min-height: 75vh;
+    
+  
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    border: solid white;
 
 
 }
@@ -192,7 +194,7 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
 } 
 .container .cards .face.face1{
     position: relative;
-    background-color: #2e2d2c;
+    background-color: #f5f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +219,7 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     
 } .container .cards .face.face1 .content h3{
     margin:  10px 0 0;
-    color: #fff;
+    color: rgb(49, 49, 49);
     text-align: center;
     font-size: 1.5em;
 
