@@ -158,67 +158,97 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     font-size: 2em;
     margin-left: 20px;
 }
-#container-projects{
+/*======SEÇÃO DOS CARDS ANIMADOS*/
+.card-container{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    min-height: 80%;
+}
+.container{ 
+      
+    min-width: 90vw;
+    min-height: 75vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    min-height: 70vh;
-    min-width: 420px;    
-    background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(76,21,51,1) 0%, rgba(34,10,37,1) 90% );
+
 }
-.content-mobile,
-.content-desktops,
-.content-full{
-    padding: 10px;
-    height: 400px;
-    width: 300px;
-    border: 3px solid #bebec0a3;
-    border-radius: 5px;
-    margin: 30px;
-    -webkit-box-shadow: 9px 10px 17px 1px rgba(0,0,0,0.71); 
-    box-shadow: 9px 10px 17px 1px rgba(0,0,0,0.71);
-    background-color: #FAF5E4;
-    transition: transform .9s;      
+.container .cards{
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
 }
-.content-mobile:hover,
-.content-desktops:hover,
-.content-full:hover{
-    transform: scale(.9);
-    box-shadow: none;
-}
-.content-mobile{
-    margin-right: 30px;
-}
-.content-desktops{
-    margin-right: 30px;
-}
-#sub-content-mobile,
-#sub-content-desktops,
-#sub-content-full{
-    border: 1px solid white;
-    border-radius: 9px;
-    padding: 5px;
-    background-color: #FBF8F1;
-    
-}.content-list-mobile,
-.content-list-desktops,
-.content-list-full{
+.container .cards .face{
+    width: 350px;
+    height: 220px;
+    transition: 0.5s;
+    border-radius: 4px;
+} 
+.container .cards .face.face1{
+    position: relative;
+    background-color: #2e2d2c;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 50%;
-    min-height: 75%;
-    border: 1px solid white;
-    border-radius: 9px;
-    margin-top: 5px;   
-    background-color: #FBF8F1; 
+    z-index: 1;
+    transform: translateY(100px);
+   
+}.container .cards:hover .face.face1{
+    background-color: #f49621;
+    transform: translatey(0px);
+
+}.container .cards .face.face1 .content{
+    opacity: 0.5s;
+    transition: 0.5s;
 }
-.content-list-mobile li,
-.content-list-desktops li,
-.content-list-full li{
-    list-style-type: none;
+.container .cards:hover .face.face1 .content{
+    opacity: 1s;
+   
+    
 }
+.container .cards .face.face1 .content img{
+    max-width: 100px;
+    
+} .container .cards .face.face1 .content h3{
+    margin:  10px 0 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+
+    
+} .container .cards .face.face2 {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    box-shadow: 0 20px 50px rgba(0, 0, 0,8 );
+    transform: translateY(-120px);
+
+}
+      
+.container .cards:hover .face.face2 {
+    transform: translateY(0);
+}
+.container .cards .face.face2 .content a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+    transition: 0.4s;
+}
+.container .cards .face.face2 .content a:hover{
+    border-radius: 10px;
+}
+
+
 /*===================================================================*/
 /*SEÇÃO DO CONTAINER SKILLS*/  
 #skills{
