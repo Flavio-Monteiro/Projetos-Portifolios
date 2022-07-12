@@ -164,16 +164,19 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     align-items: center;
     justify-content: center;
     min-height: 80%;
+    min-width: 100%;
+
 }
 .container{ 
-      
-    min-width: 90vw;
+   
+    min-width: 100%;
     min-height: 75vh;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
 
 }
 .container .cards{
