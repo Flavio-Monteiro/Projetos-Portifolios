@@ -141,6 +141,7 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
 /*===================================================================*/
 /*SEÇÃO DO CONTAINER PROJETOS*/ 
 #project{
+    visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,6 +251,7 @@ box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
     flex-wrap: wrap;
 }
 .img-skills{
+    visibility: hidden;
     transition: transform .9s;
     display: flex;
     flex-direction: column;
