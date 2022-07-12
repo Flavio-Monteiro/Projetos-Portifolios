@@ -165,7 +165,7 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     justify-content: center;
     min-height: 70%;
     min-width: 420px;
-    border: solid greenyellow;
+   
 
 }
 .container{ 
@@ -177,7 +177,7 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border: solid white;
+  
 
 
 }
