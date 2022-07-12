@@ -202,7 +202,7 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     transform: translateY(100px);
    
 }.container .cards:hover .face.face1{
-    background-color: #f49621;
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
     transform: translatey(0px);
 
 }.container .cards .face.face1 .content{
@@ -226,11 +226,10 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     
 } .container .cards .face.face2 {
     position: relative;
-    background-color: #fff;
+    background-image: linear-gradient( 44.8deg,  rgba(255,136,102,0.67) -53.1%, rgba(255,221,136,0.28) 49% );
     display: flex;
     justify-content: center;
-    align-items: center;
-  
+    align-items: center;  
     box-shadow: 0 20px 50px rgba(0, 0, 0,8 );
     transform: translateY(-120px);
 
@@ -251,6 +250,11 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
 }
 .container .cards .face.face2 .content a:hover{
     border-radius: 10px;
+}
+.content p{
+    color: #05de22;
+    text-align: justify;
+    padding: 20px;
 }
 
 

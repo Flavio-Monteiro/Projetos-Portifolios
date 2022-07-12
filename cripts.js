@@ -2,7 +2,7 @@ window.sr = ScrollReveal({ reset: true });
 
 
 ScrollReveal().reveal('.flavio', { duration: 1000 })
-ScrollReveal().reveal('.monteiro', { delay: 900 })
+ScrollReveal().reveal('.monteiro', { duratin: 900 })
 
 sr.reveal('#project',{duration: 1500})
 sr.reveal('#skills',{duration: 1500})
