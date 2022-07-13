@@ -27,7 +27,7 @@ display: flex;
 .content-nav-bar2 ul>li{
 list-style-type: none;
 font-size: 1.5em;
-color: #111111;
+color: #d1cfcf;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -37,19 +37,15 @@ margin: 15px;
 
 /*============SEÇÃO DOS BOTOES ANIMADOS DO NAVIGATOR=====*/
 .btn{
-    width: 99px;
-    height: 25px;
-     background-color: whitesmoke;
-    border-radius: 100px;
-    padding: 15px 40px;
-    transition: all .7s;
+    transition: .5s;
+    color: wheat;
+    cursor: pointer;
 }
 .btn:hover{
-    transform: translateY(-3px);
+    text-decoration: underline;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    background-color: #377D71;
-    color: #fff;
-    font-weight: bolder;
+    color: rgb(163, 76, 76);
+   
   
 }
 
