@@ -226,7 +226,7 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
     
 } .container .cards .face.face2 {
     position: relative;
-    background-image: linear-gradient( 44.8deg,  rgba(255,136,102,0.67) -53.1%, rgba(255,221,136,0.28) 49% );
+    background-image: radial-gradient( circle 926px at 2.7% 11%,  rgba(17,29,94,1) 0%, rgba(178,31,102,1) 90% );
     display: flex;
     justify-content: center;
     align-items: center;  
