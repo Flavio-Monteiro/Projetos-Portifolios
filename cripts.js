@@ -10,7 +10,7 @@ sr.reveal('#skills',{duration: 1500})
 
 ScrollReveal().reveal('.img-skills', { interval: 200 });
 
-ScrollReveal().reveal('.cards', { interval: 200 });
+ScrollReveal().reveal('.cards-skills', { interval: 200 });
 
 
 

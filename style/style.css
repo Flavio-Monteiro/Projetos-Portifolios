@@ -52,9 +52,12 @@ background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(
 width: 700px;
 padding: 20px;
 
-}.flavio{
-border-top: 1px solid white;
-border-left: 1px solid white;
+}
+.ola{
+    font-size: 2em;
+}
+.flavio{
+
 color: rgb(130, 130, 130);
 font-size: 2.4em;
 padding-top: 5px;
@@ -63,8 +66,7 @@ text-shadow: 0 0 10px #FFFFFF;
 
 }.monteiro{
 color: #17706E;
-border-bottom: 1px solid white;
-border-right: 1px solid white;
+
 font-size: 2.1em;
 padding-right: 8px;
 color: #05de22;
@@ -88,8 +90,8 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15p
 }
 /*========CONTAINER TEXTO SKILLS===================*/
 #skills{
-background-color: #cccac2d5;
-border-radius: 50px;
+
+
 min-width: 420px;
 min-height: 100px;
 display: flex;
@@ -100,16 +102,16 @@ align-items: center;
 box-shadow: 3px 0px 15px rgba(0,0,0,0.39);
 }
 #skills h1{
-color: rgb(22, 22, 22);
-font-size: 2em;
+color: rgb(195, 193, 193);
+font-size: 2.5em;
 margin: 20px;
 
 }
 /*===========CONTAINER PROJETOS TEXTO=============*/
 #project{
 visibility: hidden;
-border-radius: 50px;
-background-color: #cccac2d5;
+
+
 display: flex;
 justify-content: center;
 align-items: center;
@@ -120,8 +122,8 @@ height: 100px;
 box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
 }
 #project h1{
-color: #120f0f;
-font-size: 2em;
+color: #b8b8b8;
+font-size: 2.5em;
 margin-left: 20px;
 }
 /*===========CONTAINER CARDS ANIMADOS PROJETOS=============*/
@@ -283,13 +285,21 @@ padding: 20px;
 .container-skills .cards-skills .face-card.face02 .content {
     border-radius: 10px;
 }
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content h3{
+    padding-top: 15px ;
+}
 
 .content>img{
     width: 62px;
     height: 62px;
 }
 .container-master-skills{
-    border: solid white;
     margin: 0 auto;
    min-width: 420px;
     min-height: 540PX;
@@ -300,9 +310,6 @@ padding: 20px;
     color: green;
     margin: 5px;
     text-transform: uppercase;
-}.content ul li>a:hover{
-    border-radius: 10px;
-    color: whitesmoke;
 }
 /*SEÇÃO  DO CONTAINER INFORMAÇÕES DO RODAPÉ*/
 .informs-rodape {
