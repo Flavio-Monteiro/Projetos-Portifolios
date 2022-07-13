@@ -11,6 +11,94 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
+<style>
+     .containers-skills{ 
+      width: 100vw;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+  }
+  .containers-skills .cards-skills{
+
+      cursor: pointer;
+      margin: 10px;
+  }
+  .containers-skills .cards-skills .face-card{
+      width: 150px;
+      height: 200px;
+      transition: 0.5s;
+      border-radius: 5px;
+  } 
+  .containers-skills .cards-skills .face-card.face01{
+    
+      background-color: #2e2d2c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      transform: translateY(100px);
+     
+  }.containers-skills .cards-skills:hover .face-card.face01{
+      background-color: #f49621;
+      transform: translatey(0px);
+
+  }.containers-skills .cards-skills .face-card.face01 .contents{
+      opacity: 0.5s;
+      transition: 0.5s;
+  }
+  .containers-skills .cards-skills:hover .face-card.face01 .contents{
+      opacity: 1s;
+     
+      
+  }
+  .containers-skills .cards-skills .face-card.face01 .contents img{
+      max-width: 100px;
+      
+  } .container-skills .cards-skills .face-card.face01 .contents h3{
+      margin:  10px 0 0;
+      color: #fff;
+      text-align: center;
+      font-size: 1.5em;
+
+      
+  } .containers-skills .cards-skills .face-card.face02 {
+      position: relative;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0,8 );
+      transform: translateY(-100px);
+
+  }
+        
+  .containers-skills .cards-skills:hover .face-card.face02 {
+      transform: translateY(0);
+  }
+  .containers-skills .cards-skills .face-card.face02 .contents a{
+      margin: 15px 0 0;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 900;
+      color: #333;
+      padding: 5px;
+      border: 1px solid #333;
+      transition: 0.4s;
+  }
+  .containers-skills .cards-skills .face-card.face02 .contents a:hover{
+      border-radius: 10px;
+  }
+  
+  .contents>img{
+      width: 62px;
+      height: 62px;
+  }
+  
+</style>
 
 <nav id="navigator">
     <div class="content-nav-bar2">
@@ -107,17 +195,70 @@
 <section id="progresso">
     <h1>Clique nas skills para ver o progresso</h1>
 </section>
-    <div class="container-skills">
-        <picture class="pictures-skills">
-            <div class="img-skills"><img src="images/icons front-end/html.png" alt=""><br><p>Habilidades em <br> Progresso</p></div>
-            <div class="img-skills"><img src="images/icons front-end/css.png" alt=""><br><p>Habilidades em <br> Progresso</p></div>
-            <div class="img-skills"><img src="images/icons/novos icones/js.png" alt=""><br><p>Habilidades em <br> Progresso</p></div>
-            <div class="img-skills"><img src="images/icons front-end/react.png" alt=""><br><p>Habilidades em <br> Progresso</p></div>
-            <div class="img-skills"><img src="images/icons front-end/vue.png" alt=""><br><p>Habilidades em <br> Progresso</p></div>
-            <div class="img-skills"><img src="images/icons front-end/jquery.png" alt=""><br><p>Habilidades em <br> Progresso</p></div>
-            <div class="img-skills"><img src="images/icons front-end/bootstrap_plain_wordmark_logo_icon_146620.png" alt=""><br><p>Habilidades em <br> Progresso</p></div>
-            <div class="img-skills"><img src="images/icons front-end/selvt.png" alt=""><p>Habilidades em <br> Progresso</p></div>            
-        </picture>
+<div class="containers-skills">
+
+    <div  class="cards-skills">
+        <div class="face-card face01">
+            <div class="contents">
+                <h3>Habilidades em desenvolvimento</h3>
+            </div>
+        </div>
+        <div class="face-card face02">
+            <div class="contents">
+                <img src="images/icons front-end/html.png" alt="">
+                <img src="images/icons front-end/css.png" alt="">
+               <h3>Click here</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div  class="cards-skills">
+        <div class="face-card face01">
+            <div class="contents">
+                <h3>Habilidades em desenvolvimento</h3>
+            </div>
+        </div>
+        <div class="face-card face02">
+            <img src="images/icons front-end/script-java.png" alt="">
+               <h3>Click here</h3>
+        </div>
+        
+    </div>
+    <div  class="cards-skills">
+
+        <div class="face-card face01">
+            <div class="contents">
+                <h3>Habilidades em desenvolvimento</h3>
+            </div>
+        </div>
+
+        <div class="face-card face02">
+            <div class="contents">
+                <img src="images/icons front-end/react.png" alt="">
+               <h3>Click here</h3>
+            </div>
+        </div>
+        
+    </div>
+   
+
+        <div  class="cards-skills">
+            <div class="face-card face01">
+                <div class="contents">
+                    <h3>Habilidades em desenvolvimento</h3>
+                </div>
+            </div>
+
+            <div class="face-card face02">
+                <div class="contents">
+                    <img src="images/icons front-end/vue.png" alt="">
+               <h3>Click here</h3>
+                </div>
+            </div>
+            
+        </div>
+        
     </div>
 <aside class="informs-rodape">
     <div class="infor-rodape">

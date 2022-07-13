@@ -15,7 +15,7 @@
         justify-content: center;
         align-items: center;
     }
-    .container{ 
+    .containers-skills{ 
       
         width: 1400px;
         position: relative;
@@ -26,18 +26,18 @@
         flex-wrap: wrap;
 
     }
-    .container .cards{
+    .containers-skills .cards-skills{
         position: relative;
         cursor: pointer;
         margin: 10px;
     }
-    .container .cards .face{
-        width: 300px;
+    .container-skills .cards-skills .face-card{
+        width: 150px;
         height: 200px;
         transition: 0.5s;
         border-radius: 4px;
     } 
-    .container .cards .face.face1{
+    .container-skills .cards-skills .face-card.face01{
         position: relative;
         background-color: #2e2d2c;
         display: flex;
@@ -46,30 +46,30 @@
         z-index: 1;
         transform: translateY(100px);
        
-    }.container .cards:hover .face.face1{
+    }.container-skills .cards-skills:hover .face-card.face01{
         background-color: #f49621;
         transform: translatey(0px);
 
-    }.container .cards .face.face1 .content{
+    }.container-skills .cards-skills .face-card.face01 .contents{
         opacity: 0.5s;
         transition: 0.5s;
     }
-    .container .cards:hover .face.face1 .content{
+    .container-skills .cards-skills:hover .face-card.face01 .contents{
         opacity: 1s;
        
         
     }
-    .container .cards .face.face1 .content img{
+    .container-skills .cards-skills .face-card.face01 .contents img{
         max-width: 100px;
         
-    } .container .cards .face.face1 .content h3{
+    } .container-skills .cards-skills .face-card.face01 .contents h3{
         margin:  10px 0 0;
         color: #fff;
         text-align: center;
         font-size: 1.5em;
 
         
-    } .container .cards .face.face2 {
+    } .container-skills .cards-skills .face-card.face02 {
         position: relative;
         background-color: #fff;
         display: flex;
@@ -81,10 +81,10 @@
 
     }
           
-    .container .cards:hover .face.face2 {
+    .container-skills .cards-skills:hover .face-card.face02 {
         transform: translateY(0);
     }
-    .container .cards .face.face2 .content a{
+    .container-skills .cards-skills .face-card.face02 .contents a{
         margin: 15px 0 0;
         display: inline-block;
         text-decoration: none;
@@ -94,73 +94,76 @@
         border: 1px solid #333;
         transition: 0.4s;
     }
-    .container .cards .face.face2 .content a:hover{
+    .container-skills .cards-skills .face-card.face02 .contents a:hover{
         border-radius: 10px;
     }
     
-    
+    .contents>img{
+        width: 62px;
+        height: 62px;
+    }
     
 </style>
 <body>
-    <div class="container">
+    <div class="container-skills">
 
-        <div  class="cards">
-            <div class="face face1">
-                <div class="content">
-                    <img src="images/icons/novos icones/mobile02.png" alt="">
-                    <h3>Projetos mobile</h3>
+        <div  class="cards-skills">
+            <div class="face-card face01">
+                <div class="contents">
+                    <img src="images/icons front-end/html.png" alt="">
+                    <img src="images/icons front-end/css.png" alt="">
+                    <h3>Click here</h3>
                 </div>
             </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. nobis similique veniam aliquid cum debitis, animi voluptatem.</p>
+            <div class="face-card face02">
+                <div class="contents">
+                    <p>Habilidades em Desenvolvimento</p>
                 </div>
             </div>
         </div>
 
 
-        <div  class="cards">
-            <div class="face face1">
-                <div class="content">
-                    <img src="images/icons/novos icones/desktop02.png" alt="">
-                    <h3>Projetos Desktops</h3>
+        <div  class="cards-skills">
+            <div class="face-card face01">
+                <div class="contents">
+                    <p>0% <br> conhecimento será adiquirido muito em breve.</p>
                 </div>
             </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  nobis similique veniam aliquid cum debitis, animi voluptatem.</p>
+            <div class="face-card face02">
+                <div class="contents">
+                    <p>0% <br> conhecimento será adiquirido muito em breve.</p>
                 </div>
             </div>
             
         </div>
-        <div  class="cards">
+        <div  class="cards-skills">
 
-            <div class="face face1">
-                <div class="content">
-                    <img src="images/icons/novos icones/full02.png" alt="">
-                    <h3>Projetos Completos</h3>
+            <div class="face-card face01">
+                <div class="contents">
+                    <img src="images/icons front-end/react.png" alt="">
+                    <h3>Click here</h3>
                 </div>
             </div>
 
-            <div class="face face2">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.nobis similique veniam aliquid cum debitis, animi voluptatem.</p>
+            <div class="face-card face02">
+                <div class="contents">
+                    <p>0% <br> conhecimento será adiquirido muito em breve.</p>
                 </div>
             </div>
             
         </div>
 
-        <div  class="cards">
-            <div class="face face1">
-                <div class="content">
-                    <img src="images/icons/novos icones/codi01.png" alt="">
-                    <h3>Me mostre o Código</h3>
+        <div  class="cards-skills">
+            <div class="face-card face01">
+                <div class="contents">
+                    <img src="images/icons front-end/vue.png" alt="">
+                    <h3>Click here</h3>
                 </div>
             </div>
 
-            <div class="face face2">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  nobis similique veniam aliquid cum debitis, animi voluptatem.</p>
+            <div class="face-card face02">
+                <div class="contents">
+                    <p>0% <br> conhecimento será adiquirido muito em breve.</p>
                 </div>
             </div>
             
