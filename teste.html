@@ -4,30 +4,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Document</title>
 </head>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
     *{ margin: 0; padding: 0; box-sizing: border-box; 
        }
     body{ min-height: 100vh;
-        background-color: #10516d;
+        background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(76,21,51,1) 0%, rgba(34,10,37,1) 90% );
+        font-family: 'Josefin Sans', sans-serif;
       
     }
 
+    #navigator{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 9px 11px 12px 9px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 9px 11px 12px 9px rgba(0,0,0,0);
+}
+/*=================CONTAINER NAVIGATOR======================================*/
+.content-nav-bar2{
+background-color: #270B27;
+min-height: 80px;
+min-width: 420px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.content-nav-bar2 ul{
+display: flex;
 
+}
+.content-nav-bar2 ul>li{
+list-style-type: none;
+font-size: 1.5em;
+color: #f0f0f0;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 15px;
 
+}
+/*============CONTAINER MAIN==============*/
+
+#main{
+margin-top: 20px;
+min-width: 420px;
+min-height: 100vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(76,21,51,1) 0%, rgba(34,10,37,1) 90% );
+}
+.content-txt-main,
+.content-img-main{
+    width: 700px;
+    padding: 20px;
     
+}.flavio{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    color: rgb(130, 130, 130);
+    font-size: 2.4em;
+    padding-top: 5px;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
     
+}.monteiro{
+    color: #17706E;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    font-size: 2.1em;
+    padding-right: 8px;
+    color: #05de22;
+text-shadow: 0 0 10px #33a928;
+}
+.content-txt-main h2,p{
+    color: rgb(172, 171, 171);
+}
+.img-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}.img-content img{
+    width: 460px;
+    height: 460px;
+    border-radius: 25px;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 11px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 11px rgba(0,0,0,0);
+    
+}
+/*========CONTAINER TEXTO SKILLS===================*/
+#skills{
+    background-color: #cccac2d5;
+    border-radius: 50px;
+    min-width: 420px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
+-moz-box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
+box-shadow: 3px 0px 15px rgba(0,0,0,0.39);
+}
+#skills h1{
+    color: rgb(22, 22, 22);
+    font-size: 2em;
+    margin: 20px;
+   
+}
+/*===========CONTAINER PROJETOS TEXTO=============*/
+#project{
+    visibility: hidden;
+    border-radius: 50px;
+   background-color: #cccac2d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 420px;
+    height: 100px;
+    -webkit-box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
+-moz-box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
+box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
+}
+#project h1{
+    color: #120f0f;
+    font-size: 2em;
+    margin-left: 20px;
+}
+/*===========CONTAINER CARDS ANIMADOS PROJETOS=============*/
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 700PX;
+    min-width: 420px;
+
+   
+}
+.container{ 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .cards{
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+}
+.container .cards .face{
+    width: 350px;
+    height: 220px;
+    transition: 0.5s;
+    border-radius: 4px;
+} 
+.container .cards .face.face1{
+    position: relative;
+    background-color: #f5f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+   
+}.container .cards:hover .face.face1{
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    transform: translatey(0px);
+}.container .cards .face.face1 .content{
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+.container .cards:hover .face.face1 .content{
+    opacity: 1s;
+}
+.container .cards .face.face1 .content img{
+    max-width: 100px;
+    
+} .container .cards .face.face1 .content h3{
+    margin:  10px 0 0;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    font-size: 1.5em;
+} .container .cards .face.face2 {
+    position: relative;
+    background-color: #2e2d2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    box-shadow: 0 20px 50px rgba(0, 0, 0,8 );
+    transform: translateY(-120px);
+}
+.container .cards:hover .face.face2 {
+    transform: translateY(0);
+}
+.container .cards .face.face2 .content a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+    transition: 0.4s;
+}
+.container .cards .face.face2 .content a:hover{
+    border-radius: 10px;
+}
+.content p{
+    color: #05de22;
+    text-align: justify;
+    padding: 20px;
+}
+/*============CONTAINER CARDS SKILLS==============*/
     .container-skills{ 
-      
         width: 1400px;
         position: relative;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
-        border: solid red;
         flex-wrap: wrap;
-
     }
     .container-skills .cards-skills{
         position: relative;
@@ -47,11 +246,11 @@
         justify-content: center;
         align-items: center;
         z-index: 1;
-        transform: translateY(100px);
+        transform: translate(0px);
        
     }.container-skills .cards-skills:hover .face-card.face01{
         background-color: #f49621;
-        transform: translatey(0px);
+        transform: translatez(150px);
 
     }.container-skills .cards-skills .face-card.face01 .content{
         opacity: 0.5s;
@@ -59,8 +258,6 @@
     }
     .container-skills .cards-skills:hover .face-card.face01 .content{
         opacity: 1s;
-       
-        
     }
     .container-skills .cards-skills .face-card.face01 .content img{
         max-width: 100px;
@@ -70,8 +267,6 @@
         color: #fff;
         text-align: center;
         font-size: 1.5em;
-
-        
     } .container-skills .cards-skills .face-card.face02 {
         position: relative;
         background-color: #fff;
@@ -80,14 +275,12 @@
         align-items: center;
         padding: 20px;
         box-shadow: 0 20px 50px rgba(0, 0, 0,8 );
-        transform: translateY(-100px);
-
+        transform: translatey(-200.4px);
     }
-          
     .container-skills .cards-skills:hover .face-card.face02 {
-        transform: translateY(0);
+        transform: translatey(0px);
     }
-    .container-skills .cards-skills .face-card.face02 .content a{
+    .container-skills .cards-skills .face-card.face02 .contenta{
         margin: 15px 0 0;
         display: inline-block;
         text-decoration: none;
@@ -97,7 +290,7 @@
         border: 1px solid #333;
         transition: 0.4s;
     }
-    .container-skills .cards-skills .face-card.face02 .content a:hover{
+    .container-skills .cards-skills .face-card.face02 .content {
         border-radius: 10px;
     }
     
@@ -108,13 +301,115 @@
     .container-master-skills{
         margin: 0 auto;
         width: 98vw;
-        height: 100vh;
-        height: 100vh;
-        border: solid white;
+        MIN-height: 540PX;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
+    }.content ul>li{
+        color: green;
+        margin: 5px;
+        text-transform: uppercase;
+    }.content ul li>a:hover{
+        border-radius: 10px;
+        color: whitesmoke;
     }
+    /*SEÇÃO  DO CONTAINER INFORMAÇÕES DO RODAPÉ*/
+.informs-rodape {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+background-color: #270B27;
+max-width: 100%;
+min-width: 320px;
+margin: auto;
+min-height: 190px;
+min-width: 420px;
+}
+.infor-rodape {
+min-width: 260px;
+min-height: 120px;
+padding: 0px;
+margin: 5px;
+margin-top: 10px;
+text-align: center;
+}
+.infor-rodape h3 {
+font-size: 1.2em;
+font-family: 'Roboto', sans-serif;
+color: #9b9494;
+font-weight: bolder;
+}
+.infor-rodape ul {
+padding: 0px;
+min-height: 150px;
+}
+.infor-rodape li  {
+list-style-type: none;
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+font-size: .9em;
+color: #b4a6a6;
+padding: 0px;
+margin: 0px;
+}
+.direitos-de-imagem li>a{
+color: #a9a5a5;
+text-decoration: none;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tel img{
+    margin-right: 15px;
+}
+
+/*SEÇÃO  BOTÕES SOCIAIS*/
+.content_btn_social-medias{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #270B27;
+min-width: 420px;
+max-width: 100%;
+}
+.btn_facebook,
+.btn_instagram,
+.btn_youtube,
+.btn_linkedin,
+.btn_github {
+transition: transform .5s;
+margin: 10px;
+width: 30px;
+height: 30px;
+}
+.btn_facebook:hover,
+.btn_facebook:hover,
+.btn_instagram:hover,
+.btn_youtube:hover,
+.btn_linkedin:hover,
+.btn_github:hover {
+transform: scale(1.5);
+}
+
+/*SEÇÃO  DO CONTAINER DO RODAPÉ*/
+.footer {
+background-color: rgba(217, 217, 217, 0.699);
+max-width: 100%;
+min-width: 420px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+margin: auto;
+
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+color: #000000;
+}
+
     
 </style>
 <body>
@@ -129,6 +424,119 @@
         </div>
     </nav>
 
+    <main id="main">
+        <div class="content-txt-main">
+            <h2 class="ola">Olá, Sou</h2><br>
+            <h1><span class="flavio">Flávio </span><spam class="monteiro">Monteiro</spam></h1><br>
+            <h2 class="desenvolvedor">Desenvolvedor Front-End</h2><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cum mollitia placeat dolor fuga dicta aliquid quidem corrupti et deserunt, sit ullam quasi unde soluta animi, asperiores cupiditate, itaque porro?</p>              
+        </div>
+        <div class="content-img-main img-content">
+            <img src="images/backgrounds/flavio.png" alt="">
+        </div>
+    </main>
+    <section id="project">
+        <img src="images/icons/novos icones/projeto.png" alt="">
+        <h1>Projetos</h1>
+    </section>
+    <section class="card-container">
+        <div class="container">
+            <div  class="cards">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="images/icons/novos icones/mobile02.png" alt="">
+                        <h3>Projetos mobile</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <ul>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                           </ul>
+                    </div>
+                </div>
+            </div>
+            <div  class="cards">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="images/icons/novos icones/desktop02.png" alt="">
+                        <h3>Projetos Desktops</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <ul>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                           </ul>
+                    </div>
+                </div>
+        
+            </div>
+            <div  class="cards">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="images/icons/novos icones/full02.png" alt="">
+                        <h3>Projetos Completos</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <ul>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                           </ul>
+                    </div>
+                </div>
+        
+            </div>
+            <div  class="cards">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="images/icons/novos icones/codi01.png" alt="">
+                        <h3>Me mostre o Código</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <ul>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                            <li>em desenvolvimento</li>
+                           </ul>
+                    </div>
+                </div>
+        
+            </div>
+        
+        </div>
+
+    </section>
+
+    <section id="skills">
+        <img src="images/icons/novos icones/skills01.png" alt="">
+        <h1>Skills Front-End</h1>
+    </section/>   
     <div class="container-master-skills">
         <div class="container-skills">
             <div  class="cards-skills">
@@ -191,5 +599,50 @@
         </div>
     </div>
     
+    <aside class="informs-rodape">
+        <div class="infor-rodape">
+            <img src="images/icons/novos icones/globe.png" alt="">
+            <ul>
+                <h3>Institucional</h3><br>
+                <li>Conteúdo em Desenvolvimento</li>
+                <li>Conteúdo em Desenvolvimento</li>
+                <li>Conteúdo em Desenvolvimento</li>
+                <li>Conteúdo em Desenvolvimento</li>
+            </ul>
+        </div>
+        <div class="infor-rodape">
+            <img src="images/icons/novos icones/internet.png" alt="">
+            <ul class="direitos-de-imagem">
+                <h3>Imagens do Site</h3><br>
+                <li>https://icon-icons.com/</li>
+                <li><a href="https://www.flaticon.com/free-icons/profile" title="profile icons">Profile icons created by
+                        Freepik - Flaticon</a></li>
+                <h3>Paletas de Cores</h3>
+                <li>https://webgradients.com/</li>
+                <li>https://coolors.co/palettes/trending</li>
+            </ul>
+            <div class="tel">
+                <img src="images/icons/novos icones/whatsapp.png" alt="">
+                <p> (31) 9 8021-7295</p>
+            </div>
+        </div>
+    </aside>
+    <div id="container_social_mideas">
+        <picture class="content_btn_social-medias">
+            <img class="btn_facebook" src="images/icons/novos icones/facebook.png" alt="">
+            <img class="btn_instagram" src="images/icons/novos icones/instagram.png" alt="">
+            <img class="btn_youtube" src="images/icons/novos icones/youtube.png" alt="">
+            <img class="btn_linkedin" src="images/icons/novos icones/linkedin.png" alt="">
+            <img class="btn_github" src="images/icons/github.png"  alt="">
+        </picture>
+    </div>
+    <footer class="footer">
+        <h3>©️ 2022 Flávio Monteiro</h3>
+    </footer>
+    
+
+
+    <script src="cripts.js"></script>
+
 </body>
 </html>
