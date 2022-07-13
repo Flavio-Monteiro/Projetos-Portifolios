@@ -11,11 +11,14 @@
        }
     body{ min-height: 100vh;
         background-color: #10516d;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      
     }
-    .containers-skills{ 
+
+
+
+    
+    
+    .container-skills{ 
       
         width: 1400px;
         position: relative;
@@ -26,7 +29,7 @@
         flex-wrap: wrap;
 
     }
-    .containers-skills .cards-skills{
+    .container-skills .cards-skills{
         position: relative;
         cursor: pointer;
         margin: 10px;
@@ -50,19 +53,19 @@
         background-color: #f49621;
         transform: translatey(0px);
 
-    }.container-skills .cards-skills .face-card.face01 .contents{
+    }.container-skills .cards-skills .face-card.face01 .content{
         opacity: 0.5s;
         transition: 0.5s;
     }
-    .container-skills .cards-skills:hover .face-card.face01 .contents{
+    .container-skills .cards-skills:hover .face-card.face01 .content{
         opacity: 1s;
        
         
     }
-    .container-skills .cards-skills .face-card.face01 .contents img{
+    .container-skills .cards-skills .face-card.face01 .content img{
         max-width: 100px;
         
-    } .container-skills .cards-skills .face-card.face01 .contents h3{
+    } .container-skills .cards-skills .face-card.face01 .content h3{
         margin:  10px 0 0;
         color: #fff;
         text-align: center;
@@ -84,7 +87,7 @@
     .container-skills .cards-skills:hover .face-card.face02 {
         transform: translateY(0);
     }
-    .container-skills .cards-skills .face-card.face02 .contents a{
+    .container-skills .cards-skills .face-card.face02 .content a{
         margin: 15px 0 0;
         display: inline-block;
         text-decoration: none;
@@ -94,81 +97,98 @@
         border: 1px solid #333;
         transition: 0.4s;
     }
-    .container-skills .cards-skills .face-card.face02 .contents a:hover{
+    .container-skills .cards-skills .face-card.face02 .content a:hover{
         border-radius: 10px;
     }
     
-    .contents>img{
+    .content>img{
         width: 62px;
         height: 62px;
+    }
+    .container-master-skills{
+        margin: 0 auto;
+        width: 98vw;
+        height: 100vh;
+        height: 100vh;
+        border: solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 </style>
 <body>
-    <div class="container-skills">
-
-        <div  class="cards-skills">
-            <div class="face-card face01">
-                <div class="contents">
-                    <img src="images/icons front-end/html.png" alt="">
-                    <img src="images/icons front-end/css.png" alt="">
-                    <h3>Click here</h3>
-                </div>
-            </div>
-            <div class="face-card face02">
-                <div class="contents">
-                    <p>Habilidades em Desenvolvimento</p>
-                </div>
-            </div>
+    <nav id="navigator">
+        <div class="content-nav-bar2">
+            <ul class="listas">
+                <li>Entar</li>
+                <li>Apoio</li>
+                <li>Contato</li>
+            </ul>
+          <img src="images/icons/novos icones/menu (1).png" alt="">
         </div>
+    </nav>
 
-
-        <div  class="cards-skills">
-            <div class="face-card face01">
-                <div class="contents">
-                    <p>0% <br> conhecimento será adiquirido muito em breve.</p>
+    <div class="container-master-skills">
+        <div class="container-skills">
+            <div  class="cards-skills">
+                <div class="face-card face01">
+                    <div class="content">
+                        <img src="images/icons front-end/html.png" alt="">
+                        <img src="images/icons front-end/css.png" alt="">
+                        <h3>Click here</h3>
+                    </div>
+                </div>
+                <div class="face-card face02">
+                    <div class="content">
+                        <p>Habilidades em Desenvolvimento</p>
+                    </div>
                 </div>
             </div>
-            <div class="face-card face02">
-                <div class="contents">
-                    <p>0% <br> conhecimento será adiquirido muito em breve.</p>
+            <div  class="cards-skills">
+                <div class="face-card face01">
+                    <div class="content">
+                        <img src="images/icons front-end/script-java.png" alt="">
+                        <h3>Click here</h3>
+                    </div>
                 </div>
-            </div>
-            
-        </div>
-        <div  class="cards-skills">
-
-            <div class="face-card face01">
-                <div class="contents">
-                    <img src="images/icons front-end/react.png" alt="">
-                    <h3>Click here</h3>
+                <div class="face-card face02">
+                    <div class="content">
+                        <p>0% <br> conhecimento será adiquirido muito em breve.</p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="face-card face02">
-                <div class="contents">
-                    <p>0% <br> conhecimento será adiquirido muito em breve.</p>
-                </div>
-            </div>
-            
-        </div>
-
-        <div  class="cards-skills">
-            <div class="face-card face01">
-                <div class="contents">
-                    <img src="images/icons front-end/vue.png" alt="">
-                    <h3>Click here</h3>
-                </div>
-            </div>
-
-            <div class="face-card face02">
-                <div class="contents">
-                    <p>0% <br> conhecimento será adiquirido muito em breve.</p>
-                </div>
-            </div>
-            
-        </div>
         
+            </div>
+            <div  class="cards-skills">
+                <div class="face-card face01">
+                    <div class="content">
+                        <img src="images/icons front-end/react.png" alt="">
+                        <h3>Click here</h3>
+                    </div>
+                </div>
+                <div class="face-card face02">
+                    <div class="content">
+                        <p>0% <br> conhecimento será adiquirido muito em breve.</p>
+                    </div>
+                </div>
+        
+            </div>
+            <div  class="cards-skills">
+                <div class="face-card face01">
+                    <div class="content">
+                        <img src="images/icons front-end/vue.png" alt="">
+                        <h3>Click here</h3>
+                    </div>
+                </div>
+                <div class="face-card face02">
+                    <div class="content">
+                        <p>0% <br> conhecimento será adiquirido muito em breve.</p>
+                    </div>
+                </div>
+        
+            </div>
+        
+        </div>
     </div>
     
 </body>
