@@ -289,9 +289,10 @@ padding: 20px;
     height: 62px;
 }
 .container-master-skills{
+    border: solid white;
     margin: 0 auto;
-    width: 98vw;
-    MIN-height: 540PX;
+   min-width: 420px;
+    min-height: 540PX;
     display: flex;
     justify-content: center;
     align-items: flex-end;
