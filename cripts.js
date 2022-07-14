@@ -2,7 +2,7 @@ window.sr = ScrollReveal({ reset: true });
 
 
 
-ScrollReveal().reveal('.monteiro', { duration: 900 })
+ScrollReveal().reveal('.ola', { duration: 1100 })
 
 sr.reveal('#project',{duration: 1500})
 sr.reveal('#skills',{duration: 1500})
