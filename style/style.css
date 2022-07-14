@@ -404,12 +404,16 @@ margin-right: 15px;
 
 /*SEÇÃO  BOTÕES SOCIAIS*/
 .content_btn_social-medias{
+    margin-top: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #270B27;
+background-color: #270b279f;
 min-width: 420px;
 max-width: 100%;
+-webkit-box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
+-moz-box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
+box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
 }
 .btn_facebook,
 .btn_instagram,
