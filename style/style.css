@@ -51,9 +51,9 @@ margin: 15px;
 
 /*============CONTAINER MAIN==============*/
 
-.ola:after,
-.flavio::after,
-.monteiro::after{
+
+.flavio::after
+{
     content: '|';
     margin-left: 5px;
     opacity: 1;
