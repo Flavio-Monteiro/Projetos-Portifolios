@@ -165,8 +165,8 @@ cursor: pointer;
 margin: 10px;
 }
 .container .cards .face{
-width: 350px;
-height: 220px;
+min-width: 350px;
+min-height: 220px;
 transition: 0.5s;
 border-radius: 4px;
 } 
@@ -194,7 +194,7 @@ max-width: 100px;
 
 } .container .cards .face.face1 .content h3{
 margin:  10px 0 0;
-color: rgb(49, 49, 49);
+color: rgb(48, 192, 67);
 text-align: center;
 font-size: 1.5em;
 } .container .cards .face.face2 {
@@ -209,7 +209,7 @@ transform: translateY(-120px);
 .container .cards:hover .face.face2 {
 transform: translateY(0);
 }
-.container .cards .face.face2 .content a{
+.container .cards .face.face2 .content{
 margin: 15px 0 0;
 display: inline-block;
 text-decoration: none;
@@ -219,13 +219,30 @@ padding: 5px;
 border: 1px solid #333;
 transition: 0.4s;
 }
-.container .cards .face.face2 .content a:hover{
+.container .cards .face.face2 .content{
 border-radius: 10px;
 }
 .content p{
 color: #05de22;
 text-align: justify;
 padding: 20px;
+}
+.content ul li>a{
+    text-decoration: none;
+    color: #1da02e;
+    transition: .4s;
+       
+}
+.content ul li>a:hover{
+   text-decoration: underline;
+   color: #f5f2f2;
+}.content p{
+    color:  #f5f2f2;
+    transition: .5s;
+}
+.content p:hover{
+    color: #1da02e;
+    
 }
 /*============CONTAINER CARDS SKILLS==============*/
 .container-skills{ 
@@ -257,7 +274,8 @@ padding: 20px;
     transform: translate(0px);
    
 }.container-skills .cards-skills:hover .face-card.face01{
-    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
     transform: translatez(150px);
 
 }.container-skills .cards-skills .face-card.face01 .content{
@@ -272,10 +290,14 @@ padding: 20px;
     
 } .container-skills .cards-skills .face-card.face01 .content h3{
     margin:  10px 0 0;
-    color: #fff;
+    color: rgb(44, 166, 42);
     text-align: center;
     font-size: 1.5em;
-} .container-skills .cards-skills .face-card.face02 {
+    transition: .5s;
+}.container-skills .cards-skills .face-card.face01 .content h3:hover{
+    color: #eaebed;
+}
+ .container-skills .cards-skills .face-card.face02 {
     position: relative;
     background-color: #313130;
     display: flex;
@@ -327,7 +349,7 @@ padding: 20px;
     margin: 5px;
     text-transform: uppercase;
 }
-/*SEÇÃO  DO CONTAINER INFORMAÇÕES DO RODAPÉ*/
+/*==========SEÇÃO  DO CONTAINER INFORMAÇÕES DO RODAPÉ=====*/
 .informs-rodape {
 display: flex;
 justify-content: space-evenly;
