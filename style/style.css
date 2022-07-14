@@ -274,8 +274,8 @@ padding: 20px;
     transform: translate(0px);
    
 }.container-skills .cards-skills:hover .face-card.face01{
-    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-    background-blend-mode: multiply,multiply;
+   background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
     transform: translatez(150px);
 
 }.container-skills .cards-skills .face-card.face01 .content{
@@ -404,16 +404,12 @@ margin-right: 15px;
 
 /*SEÇÃO  BOTÕES SOCIAIS*/
 .content_btn_social-medias{
-    margin-top: 10px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #270b279f;
+background-color: #270B27;
 min-width: 420px;
 max-width: 100%;
--webkit-box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
--moz-box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
-box-shadow: 3px 0px 15px 11px rgba(0,0,0,0.39);
 }
 .btn_facebook,
 .btn_instagram,
